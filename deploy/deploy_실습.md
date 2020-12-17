@@ -105,6 +105,7 @@ $ source venv/bin/activate
 
 ```bash
 $ pip --version
+$ pip3 --version
 $ pip install -r requirements.txt
 ```
 
@@ -117,14 +118,14 @@ $ pip install -r requirements.txt
 - static 모은 후, migrate
 
 ```bash
-$ python manage.py collectstatic
-$ python manage.py migrate
+$ python3.8 manage.py collectstatic
+$ python3.8 manage.py migrate
 ```
 
 - 외부 ip와 바인딩 되도록 실행
 
 ```bash
-$ python manage.py runserver 0.0.0.0:8000
+$ python3.8 manage.py runserver 0.0.0.0:8000
 ```
 
 - 만약, 쟝고가 없다는 에러가 난다면 https://twpower.github.io/49-how-to-use-newrelic-apm-in-pyenv-and-virtualenv 확인
