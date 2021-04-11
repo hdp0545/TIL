@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>DOM Script Event Example</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/script.js"></script>
+	</head>
+	<body onload="aa()">
+		<img id="boxingGlove" src="img/boxing_glove.png">
+		<img id="sandbag" src="img/sandbag.png">
+	</body>
+</html>

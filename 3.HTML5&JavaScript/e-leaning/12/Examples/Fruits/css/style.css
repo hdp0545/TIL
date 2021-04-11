@@ -1,0 +1,29 @@
+#apple {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	width: 250px;
+	height: 250px;
+	background-image: url(../img/apple.png);
+	border: 1px solid #ccc;
+}
+
+#lemon {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	width: 250px;
+	height: 250px;
+	background-image: url(../img/lemon.png);
+	border: 1px solid #ccc;
+}
+
+#strawberry {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	width: 250px;
+	height: 250px;
+	background-image: url(../img/strawberry.png);
+	border: 1px solid #ccc;
+}

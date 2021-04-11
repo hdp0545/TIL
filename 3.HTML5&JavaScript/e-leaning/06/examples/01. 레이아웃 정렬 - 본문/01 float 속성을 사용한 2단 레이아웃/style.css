@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	width: 700px;
+	background-color: gray;
+}
+
+header {
+	width: 680px;
+	height: 80px;
+	padding: 10px;
+	background-color: lightgray;
+}
+
+nav {
+	width: 160px;
+	padding: 10px;
+	float: left;
+}
+
+nav+section {
+	width: 500px;
+	padding: 10px;
+	background-color: darkgray;
+	float: right;
+}
+
+footer {
+	clear: both;
+	padding: 5px;
+	background-color: black;
+	color: white;
+}
+
+body {
+	font-size: 0.9em;
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+li {
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: red;
+}

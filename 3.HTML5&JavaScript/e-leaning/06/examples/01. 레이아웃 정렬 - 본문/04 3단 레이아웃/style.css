@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	width: 700px;
+	background-color: gray;
+}
+
+body {
+	font-size: 0.9em;
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+header {
+	width: 680px;
+	height: 80px;
+	padding: 10px;
+	background-color: lightgray;
+}
+
+nav {
+	width: 160px;
+	padding: 10px;
+	float: left;
+
+}
+
+#rightside {
+	width: 520px;
+	float: right;
+}
+
+#rightside>section {
+	width: 300px;
+	padding: 10px;
+	float: left;
+	background-color: darkgray;
+}
+
+#rightside>aside {
+	width: 180px;
+	padding: 10px;
+	float: right;
+}
+
+footer {
+	clear: both;
+	padding: 5px;
+	background-color: black;
+	color: white;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+li {
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+li>a {
+	text-decoration: none;
+	color: white;
+}
+
+li>a:hover {
+	color: red;
+}

@@ -1,0 +1,14 @@
+table, th, td {
+	border: 1px solid #686868;
+}
+
+#korean, #math{
+	background-color: #e8baba;
+}
+#english {
+	background-color: #bbb1e1;
+}
+
+#subject {
+	width: 50px;
+}

@@ -1,0 +1,107 @@
+/* 	캡션 부분 설정 	*/
+caption {
+	font-size: 11pt;
+	font-weight: bold;
+	margin: 5px;
+}
+
+/* 	Table 테두리와 셀 높이 설정 	*/
+table {
+	border-collapse: collapse;
+	height: 70px;
+}
+
+td, th {
+	border: 1px solid gray;
+	text-align: center;
+}
+
+/* 	헤더셀 넓이와 텍스트 색 설정 	*/
+th {
+	width: 100px;
+	color: white;
+}
+
+/* 	일반 셀 넓이 설정 	*/
+td {
+	width: 70px;
+}
+
+/* 	'더 커짐'과 '더 빨라짐'의 위치 조절 
+	왼쪽으로 띄우고 왼쪽 마진을 50픽셀 준다		*/
+td>span:first-child {
+	float: left;
+	margin-left: 50px;
+}
+
+/* '더 작아짐'과 '더 느려짐'의 위치 조절 
+	오른쪽으로 띄우고 오른쪽 마진을 50픽셀 준다	*/
+td>span:last-child {
+	float: right;
+	margin-right: 50px;
+}
+
+/* 	조리개 헤더 스타일 설정 	
+	조리개 헤더의 배경색을 오렌지 색으로 만든다.	*/
+tr:first-of-type th {
+	background-color: orange;
+}
+
+/* 	셔터 스피드 헤더 스타일 설정 	
+	셔터 스피드 헤더의 배경색을 그린 색으로 만든다.	*/
+tr:nth-of-type(3) th {
+	background-color: green;
+}
+
+/* 	표 상단 '더 커짐', '더 작아짐' 스타일 설정 	
+	텍스트 색을 오렌지로 설정한다.				*/
+tr:first-of-type td {
+	color: orange;
+}
+
+/* 	조리개 라인(f/1, f/1.4 ... f/8) 스타일 설정 
+	조리개 라인 배경색을 밝은노랑으로 설정		*/
+tr:nth-of-type(2) {
+	background-color: lightyellow;
+}
+
+/* 	셔터 스피드 라인(1/60초, 1/30초 ... 1초) 스타일 설정 
+	셔터 스피드 라인 배경색을 밝은초록으로 설정	*/
+tr:nth-of-type(3) {
+	background-color: lightgreen;
+}
+
+/*	표 하단 '더 빨라짐', '더 느려짐' 스타일 설정	
+	텍스트 색을 초록색으로 설정				*/
+tr:last-of-type td {
+	color: green;
+}
+
+/* 	이미지 화살표 넣기 */
+/*	'더 커짐' 앞에 오렌지색 이미지 화살표 넣기	*/
+tr:first-of-type td>span:first-child:before {
+	content: url('img/orange_arrow_l.png');
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+/*	'더 작아짐' 뒤에 오렌지색 이미지 화살표 넣기	*/
+tr:first-of-type td>span:last-child:after {
+	content: url('img/orange_arrow_r.png');
+	vertical-align: middle;
+	margin-left: 5px;
+}
+
+/*	'더 빨라짐' 앞에 초록색 이미지 화살표 넣기	*/
+tr:last-of-type td>span:first-child:before {
+	content: url('img/green_arrow_l.png');
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+/*	'더 느려짐' 앞에 초록색 이미지 화살표 넣기	*/
+tr:last-of-type td>span:last-child:after {
+	content: url('img/green_arrow_r.png');
+	vertical-align: middle;
+	margin-left: 5px;
+}

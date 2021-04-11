@@ -1,0 +1,8 @@
+body {
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+input[type="number"], input[type="text"] {
+	width: 50px;
+	text-align: right;
+}

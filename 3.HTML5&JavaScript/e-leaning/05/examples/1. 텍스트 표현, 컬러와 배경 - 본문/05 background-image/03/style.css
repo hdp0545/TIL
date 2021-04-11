@@ -1,0 +1,7 @@
+body {
+	background-image: url("images/flower.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 30px 30px;
+	background-size: 50% 50%;
+}

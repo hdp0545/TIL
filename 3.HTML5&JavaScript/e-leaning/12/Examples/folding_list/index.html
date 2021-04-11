@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>DOM Script Event Example</title>
+		<style>
+			#list > li {
+				list-style-image: url(img/li_bull.gif);
+			}
+			#sublist li {
+				list-style-type: circle;
+			}
+		</style>
+		<script>
+			window.onload = init;
+
+			function init (event) {
+				document.getElementById("sublist").style.display = "none";
+				document.getElementById("html").onclick = toggleSublist;
+			}
+
+			function toggleSublist(event) {
+				event.target.nextSibling.nextSibling.style.display = (this.nextSibling.nextSibling.style.display == "none") ? "block" : "none";
+			}
+		</script>
+	</head>
+	
+	<body>
+		<ul id="list">
+			<li id="html">HTML</li>
+			<ul id="sublist">
+				<li>HTML3.2</li>
+				<li>HTML4/XHTML</li>
+				<li>HTML5</li>
+			</ul>
+			<li>CSS</li>
+			<li>Javascript</li>
+		</ul>
+	</body>
+</html>

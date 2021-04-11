@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 15px;
+	width: 400px;
+}
+
+p {
+	font-size: 0.8em;
+	line-height: 2em;
+	margin-bottom: 15px;
+}
+
+#viking {
+	float: right;
+	margin: 5px;
+}
+
+p:nth-of-type(1) {
+	width: 350px;
+	position: absolute;
+	top: 15px;
+	left: 170px;
+}
+
+p:nth-of-type(2) {
+	clear: left;
+}
+
+#explore {
+	font-size: 0.7em;
+	background-color: #ddd;
+	width: 100px;
+	padding: 3px;
+	position: relative;
+	top: -285px;
+	left: 395px;
+}

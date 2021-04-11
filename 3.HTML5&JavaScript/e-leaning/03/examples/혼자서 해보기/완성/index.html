@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Pizza Ordering Form</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1>Pizza Ordering Form</h1>
+		<form method="post" action="ordering.php">
+			<p>
+				<label class="custinput" for="name">Customer name:</label>
+				<input name="custname" id="name" required>
+			</p>
+			<p>
+				<label class="custinput" for="custtel">Telephone:</label>
+				<input type=tel name="custtel" id="custtel" placeholder="(031) 234-5678">
+			</p>
+			<p>
+				<label class="custinput" for="custemail">E-mail address:</label>
+				<input type=email name="custemail" id="custemail" placeholder="abcedf@thismail.com">
+			</p>
+			<fieldset>
+				<legend> Pizza Size </legend>
+				<p><label> <input type=radio name=size value="small"> Small </label></p>
+				<p><label> <input type=radio name=size value="medium"> Medium </label></p>
+				<p><label> <input type=radio name=size value="large"> Large </label></p>
+			</fieldset>
+			<fieldset>
+				<legend> Pizza Toppings </legend>
+				<p><label> <input type=checkbox name="topping" value="bacon"> Bacon </label></p>
+				<p><label> <input type=checkbox name="topping" value="cheese"> Extra Cheese </label></p>
+				<p><label> <input type=checkbox name="topping" value="onion"> Onion </label></p>
+				<p><label> <input type=checkbox name="topping" value="mushroom"> Mushroom </label></p>
+			</fieldset>
+			<p><label>Preferred delivery time: <input type="time" min="11:00" max="21:00" step="900" name="delivery" required></label></p>
+			<p><label>Delivery instructions:<br><textarea name="comments" maxlength="1000"></textarea></label></p>
+			<p><button type="submit">Submit order</button><p>
+		</form>
+	</body>
+</html>

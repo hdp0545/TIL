@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>회원가입</title>
+</head>
+<body>
+	<h1>회원가입</h1>
+	<form method="post" action="joined.html">
+		<p><label>이름: <input name="name" placeholder="홍길동" required autofocus></label></p>
+		<p><label>아이디: <input name="id" placeholder="ID는 반드시 입력하세요." required></label></p>
+		<p><label>암호: <input name="pw" type="password" required></label></p>
+		<fieldset>
+			<legend>개인정보</legend>
+			<p>
+				<label>성별: </label>
+				<input type="radio" id="male" name="sex" value="male"><label for="male">남성</label>
+				<input type="radio" id="female" name="sex" value="female"><label for="female">여성</label>
+			</p>
+			<p><label>생년월일: <input type="date"></label></p>
+			<p><label>주민등록번호: <input maxlength="6" name="IDcode1"></label> - <input maxlength="7" name="IDcode2"><p>
+			<p><label>휴대전화: </label>
+				<select id="telCode" name="telCode">
+					<option value="010">010</option>
+					<option value="011">011</option>
+					<option value="016">016</option>
+					<option value="017">017</option>
+					<option value="019">019</option>
+				</select>
+				- <input type="tel" name="telNum" placeholder="1234-5678">
+			</p>
+			<p><label>주소: <input name="addr"></label></p>
+			<p><label>이메일: <input type="email" name="email" placeholder="you@youremail.com"></label></p>
+			<fieldset>
+				<legend>이메일 정보 수신</legend>
+				<p>
+					<input id="receive" type="radio" name="receiveMail" value="true" checked><label for="receive">수신함</label> 
+					<input id="noreceive" type="radio" name="receiveMail" value="false"><label for="noreceive">수신하지 않음</label>
+				</p>
+			</fieldset>
+		</fieldset>
+		<fieldset>
+			<legend>추가 정보</legend>
+			<p><label>홈페이지: <input type="url" name="site"></label></p>
+			<p><label>블로그: <input type="url" name="blog" list="blogURL"></label></p>
+			<datalist id="blogURL">
+				<option label="Daum Blog" value="http://blog.daum.net/">
+				<option label="Naver Blog" value="http://blog.naver.com/">
+				<option label="tistory Blog" value="http://*.tistory.com/">
+			</datalist>
+			<fieldset>
+				<legend>관심분야</legend>
+				<p>
+					<label><input type="checkbox" name="interesting" value="html5">HTML5</label>
+					<label><input type="checkbox" name="interesting" value="css">CSS3</label>
+					<label><input type="checkbox" name="interesting" value="javascript">JavaScript</label>
+					<label><input type="checkbox" name="interesting" value="ajax">Ajax</label>
+				</p>
+				<p>
+					<label><input type="checkbox" name="interesting" value="webapp">Web Apps</label>
+					<label><input type="checkbox" name="interesting" value="jquery">jQuery</label>
+					<label><input type="checkbox" name="interesting" value="nodejs">nodeJS</label>
+				</p>
+			</fieldset>
+			<p><label for="comment">하고 싶은 말: </label><br><textarea id="comment" cols="50" rows="5"></textarea></p>
+		</fieldset>
+		<p><button type="submit">가입하기</button> <button type="reset">재작성</button></p>
+	</form>
+</body>
+</html>

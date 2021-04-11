@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>scope 예제</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<table>
+		<thead>
+			<tr><th>ID</th><th>Measurement</th><th>Average</th><th> Maximum</th></tr>
+		</thead>
+		<tbody>
+			<tr><td></td><th scope=rowgroup>Cats</th><td></td><td></td></tr>
+			<tr><td>93</td><th>Legs</th><td>3.5</td><td>4</td></tr>
+			<tr><td>10</td><th>Tails</th><td>1</td><td>1</td></tr>
+		</tbody>
+		<tbody>
+			<tr><td></td><th scope=rowgroup>English speakers</th><td></td><td></td></tr>
+			<tr><td>32</td><th>Legs</th><td>2.67</td><td>4</td></tr>
+			<tr><td>35</td><th>Tails</th><td>0.33</td><td>1</td></tr>
+		</tbody>
+	</table>
+</body>
+</html>

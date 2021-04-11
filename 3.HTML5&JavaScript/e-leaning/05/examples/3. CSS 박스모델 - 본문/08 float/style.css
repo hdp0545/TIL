@@ -1,0 +1,14 @@
+p {
+	font-size: 0.8em;
+	line-height: 2em;
+}
+
+#mars {
+	float: left;
+	margin: 5px;
+}
+
+#viking {
+	float: right;
+	margin: 5px;
+}

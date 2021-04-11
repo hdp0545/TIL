@@ -1,0 +1,26 @@
+xx1110x1x100011xxx11000111x1x00111010
+
+#si, ei는 raw의 시작과 끝값
+#sj, ej는 column의 시작과 끝값
+def f(si = 0, ei = N, sj = 0, ej = N):
+    # 전체가 0인지 판단
+    for i in range(si, ei):
+        for j in range(sj, ej):
+            if matrix[i][j] == 1:
+                break
+        else:
+            return '0'
+    # 전체가 1인지 판단
+    for i in range(si, ei):
+        for j in range(sj, ej):
+            if matrix[i][j] == 0:
+                break
+        else:
+            return '1'
+    # 범위를 4분할하여 재귀로 넣기
+    a = f(si, (si+ei) // 2, sj, (sj+ej) // 2)
+    b = f(si, (si+ei) // 2, (sj + ej) // 2, ej)
+    c = f((si + ei) // 2, ei, sj, (sj + ej) // 2)
+    d = f((si + ei) // 2, ei, (sj + ej) // 2, ej)
+    # 그 값을 리턴
+    return f'x{}{}{}{}'.format(a,b,c,d)

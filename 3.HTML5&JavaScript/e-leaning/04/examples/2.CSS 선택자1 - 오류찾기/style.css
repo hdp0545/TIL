@@ -1,0 +1,35 @@
+body {
+	font-size: 10pt;
+	width: 500px;
+}
+
+li {
+	list-style: circle;
+	color: gray;
+}
+
+h2 {
+	color: purple;
+	margin-left: 20px;
+}
+
+h2+h3 {
+	margin-bottom: 0;
+	font-style: italic;
+	color: orange;
+}
+
+ul+h3 {
+	margin-bottom: 0;
+	font-style: italic;
+	color: #555;
+}
+
+section>p {
+	color: gray;
+}
+
+section p i {
+	color: lime;
+	background-color: #a76031;
+}

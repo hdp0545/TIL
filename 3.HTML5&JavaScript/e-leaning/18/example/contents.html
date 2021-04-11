@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>JavaScript Contents</title>
+	</head>
+	<body>
+		<h1>JavaScript</h1>
+		<img title="JavaScript IMG" src="images/JavaScript_img.jpg" alt="JavaScript JPEG Image">
+		<h2>JavaScript (JS) is an interpreted computer programming language. It was originally implemented as part of web browsers so that client-side scripts could interact with the user, control the browser, communicate asynchronously, and alter the document content that was displayed.</h2>
+		
+		<p>close window</p>
+		
+		<script>
+			var closeP = document.getElementsByTagName('p');
+			closeP[0].addEventListener('click', closeWindow, false);
+
+			function closeWindow () {
+				window.close();
+			}
+		</script>
+
+	</body>
+</html>

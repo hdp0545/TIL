@@ -1,0 +1,107 @@
+	// Title/Subtitle
+
+Environmental Brand
+Your Company Tagline Here
+
+
+	// Menu
+
+Home
+Services
+Portfolio
+Blog
+About Us
+
+
+	// Main Slogan
+
+Bright Ideas One of our services is our bright ideas and details.
+
+Project Quote We provide you with a detailed price quote.
+
+Environment We care about the environment and our projects.
+
+
+	// Side Contents 1
+
+CLIENT TESTIMONIALS
+
+"Best services ever! I'd be lost without your company. Your company was great to work with and we look forward to dealing with you in the future.
+
+I would recommend your great services to anyone. I appreciate all your help and your passion for the environment."
+
+- Potential Client Testimonial
+
+
+	// Side Contents 2
+
+Nice little Sidebar
+
+This is where you can put some services text fillers.
+The more you put the better
+
+
+
+	// Side Contents 3
+
+Nice little Sidebar
+
+This is where you can put some services text fillers.
+The more you put the better
+
+
+	// Side Contetns 4
+Join Our Email List
+
+
+	// Main Contents 1
+
+Leader in E-Commerce Solutions
+
+We are an eco based web and logo design company. Our main focus is working with companies that are green friendly. We specialize in getting businesses onto the Internet quickly and professionally. From custom logo identity, to fully branded web and print, we can take your business to success!
+
+This area is where your intro text can go, and this is what your text links will look like.
+
+
+	// Main Contents 2
+
+Global e-Commerce Expansion
+
+2010 Holiday Season To Date vs. Corresponding Days* in 2009
+Non-Travel (Retail) Spending
+Excludes Auctions and Large Corporate Purchases
+Total U.S. ??Home/Work/University Locations
+Source: comScore, Inc.
+
+						Millions($)
+				2009		2010		Percent Change
+November 1 ??29			$12,008		$13,553		13%
+Thanksgiving Day (Nov. 25)	$318		$407		28%
+Black Friday (Nov. 26)		$595		$648		9%
+Weekend (Nov. 27-28)		$805		$886		10%
+Cyber Monday (Nov. 29)		$887		$1,028		16%
+
+LEARN MORE
+
+
+	// Sub Slogan
+
+We are great to work with on projects.
+
+We have great ideas that will benefit you.
+
+We care about the environment a lot.
+
+
+	// Copyright
+
+Copyright © 2008 Your Company Name 
+
+
+	// Foot Links
+	
+Home
+Services
+Portfolio
+Blog
+Eco Web Design by Studio7designs

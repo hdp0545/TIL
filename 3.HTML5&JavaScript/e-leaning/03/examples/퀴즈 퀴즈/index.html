@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Title</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1> 지금 가입하고 멋진 서비스를 즐기세요.</h1>
+		<form method="post" action="regi.php">
+			<p><input id="name" type="text" name="name" placeholder="이름" required><label for="name">성과 이름을 입력하세요.</label></p>
+			<p><input id="email" type="email" name="email" placeholder="이메일 주소" required><label for="email">이메일 주소를 입력하세요.</label></p>
+			<p><input id="pw" type="password" name="pw" maxlength="16" placeholder="비밀번호" required><label for="pw">6자 이상, 16자 이하! 어렵게!</label></p>
+			<p><input id="joinid" type="text" name="joinid" placeholder="사용자 아이디" required><label for="joinid">걱정마세요. 나중에 변경할 수 있습니다.</label></p>
+			<fieldset>
+				<legend>선택 사항</legend>
+				<p><label><input type="checkbox" name="choice" value="agreement" checked>뉴스레터를 받습니다.</label></p>
+				<p><label><input type="checkbox" name="choice" value="loginon">이 컴퓨터에서 로그인 상태 유지하기.</label></p>
+			</fieldset>
+			<p><button type="submit">가입하기</button>
+		</form>
+		
+		<hr>
+		
+		<table>
+			<caption>프로야구 2011년 시즌 팀 순위</caption>
+			<colgroup><col id="order"><col id="team"><col id="total"></colgroup>
+			<colgroup id="entire"><col id="win"><col id="lose"><col id="draw"></colgroup>
+			<colgroup><col id="pervic"><col id="diffvid"></colgroup>
+			<thead>
+				<tr><th rowspan="2">순위</th><th rowspan="2">팀</th><th rowspan="2">경기수</th><th colspan="3">전적</th><th rowspan="2">승률</th><th rowspan="2">승차</th></tr>
+				<tr><th>승</th><th>패</th><th>무</th></tr>
+			</thead>
+			<tbody>
+				<tr class="odd">
+					<th>1</th><td>삼성</td><td>133</td><td>79</td><td>50</td><td>4</td><td>0.612</td><td>-</td>
+				</tr>
+				<tr class="even">
+					<th>2</th><td>롯데</td><td>133</td><td>72</td><td>56</td><td>5</td><td>0.563</td><td>6.5</td>
+				</tr>
+				<tr class="odd">
+					<th>3</th><td>SK</td><td>133</td><td>71</td><td>59</td><td>3</td><td>0.546</td><td>8.5</td>
+				</tr>
+				<tr class="even">
+					<th>4</th><td>KIA</td><td>133</td><td>70</td><td>63</td><td>0</td><td>0.526</td><td>11</td>
+				</tr>
+				<tr class="odd">
+					<th>5</th><td>두산</td><td>133</td><td>61	</td><td>70</td><td>2</td><td>0.466</td><td>19</td>
+				</tr>
+				<tr class="even">
+					<th rowspan="2">6</th><td>LG</td><td>133</td><td>59</td><td>72</td><td>2</td><td>0.450</td><td>21</td>
+				</tr>
+				<tr class="even">
+					<td>한화</td><td>133</td><td>59</td><td>72</td><td>2</td><td>0.450</td><td>21</td>
+				</tr>
+				<tr class="odd">
+					<th>8</th><td>넥센</td><td>133</td><td>51</td><td>80</td><td>2</td><td>0.389</td><td>29</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,20 @@
+a.button {
+	display: block;
+	width: 160px;
+	height: 19px;
+	background-image: url(images/button.png);
+	background-position: 0 0;
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	text-align: center;
+	padding: 8px 0;
+	text-decoration: none;
+}
+
+a.button:hover {
+	background-position: 0 -35px;
+}
+
+a.button:active {
+	background-position: 0 -70px;
+}

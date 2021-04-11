@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+article {
+	width: 600px;
+	border: 20px solid #ddd;
+	position: relative;
+	top: 20px;
+	left: 20px;
+}
+
+img {
+	background-color: white;
+	padding: 10px;
+	border: 1px solid #999;
+}
+
+p {
+	color: #333;
+	display: inline-block;
+	font-size: 0.8em;
+	line-height: 1.5em;
+	vertical-align: top;
+	width: 275px;
+	margin: 15px 10px;
+
+}
+
+figure {
+	position: absolute;
+	width: 430px;
+	top: 140px;
+	left: 10px;
+}
+
+h1 {
+	color: #1f325a;
+	position: absolute;
+	top: -35px;
+	right: 20px;
+	background-color: white;
+	padding: 10px;
+}

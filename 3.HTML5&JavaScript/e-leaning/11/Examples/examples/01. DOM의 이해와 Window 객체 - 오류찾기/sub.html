@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>SUB.HTML</title>
+	</head>
+	<body>
+		<h1>sub.html</h1>
+		<p>close window</p>
+		<script>
+			// 문서 내의 테그명이 'p'인 요소 선택
+			var closeP = document.getElementsByTagName('p');
+			// 위 코드에서 선택된 첫 번째 요소에 클릭 이벤트 할당
+			closeP[0].addEventListener('click', closeWindow, false);
+
+			function closeWindow () {
+				// 현재 윈도우를 닫는다.
+				window.close();
+			}
+		</script>
+	</body>
+</html>

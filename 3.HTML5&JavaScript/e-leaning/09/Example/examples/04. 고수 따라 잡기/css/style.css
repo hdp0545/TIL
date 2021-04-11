@@ -1,0 +1,54 @@
+body {
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+
+#wrapper {
+	width: 400px;
+	border: 1px solid gray;
+}
+
+p {
+	text-align: center;
+}
+
+h1 {
+	color: #ffb700;
+	font-size: 1.8em;
+	text-align: center;
+}
+
+input {
+	text-align: right;
+}
+
+input[name="baby_birth_year"] {
+	width: 50px;
+}
+
+input[name="baby_birth_day"] {
+	width: 30px;
+}
+
+input[name="today_count"] {
+	width: 60px;
+}
+
+input[name="memorial_day"] {
+	width: 40px;
+}
+
+input[name="memorial_count"] {
+	width: 40px;
+}
+
+input[name="memorial_date"] {
+	width: 130px;
+}
+
+hr {
+	border: 0px solid white;
+	border-top: 1px dashed gray;
+	width: 300px;
+}
+

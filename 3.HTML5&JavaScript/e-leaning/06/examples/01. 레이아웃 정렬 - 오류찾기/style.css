@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	padding-top: 10px;
+	text-align: center;
+}
+
+p:first-of-type {
+	background-color: yellowgreen;
+	width: 50%;
+	height: 200px;
+	float: left;
+}
+
+p:nth-of-type(2) {
+	background-color: pink;
+	width: 50%;
+	height: 200px;
+	float: right;
+}
+
+p:nth-of-type(3) {
+	clear: both;
+	background-color: orange;
+	width: 50%;
+	height: 200px;
+	float: left;
+}
+
+p:last-of-type {
+	background-color: purple;
+	width: 50%;
+	height: 200px;
+	float: right;
+}

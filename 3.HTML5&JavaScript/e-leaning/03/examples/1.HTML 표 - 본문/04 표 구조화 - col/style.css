@@ -1,0 +1,11 @@
+table, th, td {
+	border: 1px solid black;
+}
+
+#korean, #math {
+background-color: #E8BABA;
+}
+
+#english {
+background-color: #BBB1E1;
+}

@@ -1,0 +1,3 @@
+$(function() {
+	$(".wise").addClass("select");
+});

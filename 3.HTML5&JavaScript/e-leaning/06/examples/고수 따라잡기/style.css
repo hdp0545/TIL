@@ -1,0 +1,40 @@
+#button {
+	width: 500px;
+	height: 300px;
+	background-color: gray;
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+#left {
+	width: 296px;
+	height: 296px;
+	float: left;
+	border: 2px outset #aaa;
+}
+
+#left h1 {
+	padding-right: 30px;
+	text-align: right;
+}
+
+#right {
+	float: right;
+}
+
+#right1, #right2, #right3 {
+	width: 196px;
+	height: 96px;
+	border: 2px outset #aaa;
+}
+
+#right h3 {
+	padding-left: 20px;
+	text-align: left;
+}
+
+#left:active, #right div:active {
+	color: #aaa;
+	background-color: #333;
+	border: 2px inset #aaa;
+}

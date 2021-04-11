@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>계산 퀴즈</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div id="wrapper">
+		<form>
+			<fieldset>
+				<legend>계산 퀴즈</legend>
+				<p> 이름과 계산의 답을 입력 한 후 완료 단추를 눌러주세요.</p>
+				<p>이름: <input type="text" name="examinee"></p>
+				<p><span class="qnumber">1.</span> 5 + 6 = <input type="number" name="question01"></p>
+				<p><span class="qnumber">2.</span> 8 - 3 = <input type="number" name="question02"></p>
+				<p><span class="qnumber">3.</span> 7 × 6 = <input type="number" name="question03"></p>
+				<p><span class="qnumber">4.</span> 15 ÷ 3 = <input type="number" name="question04"></p>
+				<p><span class="qnumber">5.</span> 8 + 6 - 3 × 2 ÷ 2 = <input type="number" name="question05"></p>
+				<p><input type="button" name="button" value="완료"></p>
+			</fieldset>
+		</form>
+		<div id="resultarea"></div>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>

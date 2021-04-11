@@ -1,0 +1,12 @@
+#tipBox {
+	position: absolute;
+	display: none;
+	font-size: 0.7em;
+	padding: 5px;
+	border: 1px solid #ccc;
+	background-color: yellow;
+}
+
+.toolTip {
+	border-bottom: 1px dotted red;
+}

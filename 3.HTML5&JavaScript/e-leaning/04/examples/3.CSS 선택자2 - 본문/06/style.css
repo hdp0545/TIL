@@ -1,0 +1,7 @@
+p:nth-of-type(2) {
+	color: aqua;
+}
+
+p:nth-last-of-type(2) {
+	color: fuchsia;
+}

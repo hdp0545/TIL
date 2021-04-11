@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>DOM Script Event Example</title>
+		<script>
+			document.onmousedown = mousePos;
+			
+			function mousePos(event) {
+				var mousePosX = event.clientX;
+				var mousePosY = event.clientY;
+				var outputString = "X= " + mousePosX + ", Y= " + mousePosY;
+				alert(outputString);
+			}
+		</script>
+	</head>
+	
+	<body>
+		
+	</body>
+</html>

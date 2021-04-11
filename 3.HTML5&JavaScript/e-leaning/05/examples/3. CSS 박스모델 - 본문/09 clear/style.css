@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 15px;
+}
+
+p {
+	font-size: 0.8em;
+	line-height: 2em;
+	margin-bottom: 1.5em;
+}
+
+#mars {
+	float: left;
+	margin: 5px;
+}
+
+#viking {
+	float: right;
+	margin: 5px;
+}
+
+p:nth-of-type(2) {
+	clear: both;
+	display: 
+}

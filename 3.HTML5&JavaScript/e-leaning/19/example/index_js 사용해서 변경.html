@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <title> Example Banner</title>
+   <link rel="stylesheet" href="css/style.css">
+   
+   <script type="text/javascript">
+   function swapimg_over(obj,srcstr){
+	if(!document.getElementByld(obj).hasAttribute("osrc")){
+	     var osrcstr = document.getElementByld(obj).getAttribute("src");
+		 document.getElementByld(obj).setAttribute("osrc",osrcstr);
+	}
+    document.getElementByld(obj).setAttribute("src",srcstr);
+   }
+
+   function swapimg_out(obj){
+
+	var osrcstr = document.getElementByld(obj).getAttribute("osrc");
+    document.getElementByld(obj).setAttribute("src",osrcstr);
+	document.getElementByld(obj).removeAttribute("osrc");
+
+   }
+   </script>
+ 
+ </head>
+ <body>
+   <a class="ban" href ="http://www.samsungedu.com">
+   <img  src="images/logo.png" id ="img1"  onmouseover="swapimg_over(1,'images/ban_bg.png')" onmouseout="swapimg_out(1)" />
+  </a>
+ </body>
+</html>

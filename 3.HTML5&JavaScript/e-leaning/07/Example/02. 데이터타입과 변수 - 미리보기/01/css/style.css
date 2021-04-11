@@ -1,0 +1,83 @@
+body {
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+	width: 690px;
+}
+
+form {
+	float: left;
+}
+
+fieldset {
+	width: 280px;
+	height: 300px;
+	border: 1px solid #aba23c;
+	padding: 30px;
+}
+
+legend {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+form p {
+	font-size: 0.9em;
+}
+
+input[type="number"] {
+	width: 50px;
+	float: right;
+}
+
+input[type="text"] {
+	width: 70px;
+}
+
+fieldset p:first-of-type {
+	color: #888;
+	font-size: 0.8em;
+	margin-top: 0;
+}
+
+fieldset p:nth-of-type(2) {
+	text-align: right;
+}
+
+.qnumber {
+	margin-right: 15px;
+	color: #999;
+	font-weight: bold;
+}
+
+input[type="button"] {
+	width: 70px;
+}
+
+fieldset p:last-of-type {
+	position: relative;
+	width: 70px;
+	margin: 30px auto 0;
+}
+
+#resultarea {
+	width: 280px;
+	height: 286px;
+	margin-top: 14px;
+	padding: 30px;
+	float: right;
+	border: 1px solid #aba23c;
+	visibility: hidden;
+}
+
+#resultarea p {
+	color: #888;
+	font-size: 0.8em;
+}
+
+#score {
+	color: red;
+	font-size: 1.2em;
+	font-weight: bold;
+}

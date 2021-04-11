@@ -1,0 +1,145 @@
+/* 기본 설정 */
+* {
+
+}
+
+body {
+
+}
+
+#wrapper {
+
+}
+
+/* 헤더 */
+#wrapper>header {
+	background-color: orange;
+}
+
+/* 메인 헤더 */
+#wrapper>header hgroup {
+
+}
+
+/* 네비게이션 */
+#wrapper>header nav {
+
+}
+
+/* 슬로건 */
+#slogan {
+	background-color: pink;
+}
+
+#slogan img[alt="banner image"] {
+
+}
+
+#slogan div {
+
+}
+
+#slogan div p em {
+	color: yellowgreen;
+}
+
+#slogan div  p img {
+
+}
+
+#slogan div  p .desc {
+	color: green;
+}
+
+/* 메인 콘텐츠 */
+#mainContents {
+	background-color: yellow;
+}
+
+/* 메인 콘텐츠 좌측 사이드 */
+#mainContents aside {
+	background-color: lightblue;
+}
+
+/* == 메인 콘텐츠 좌측 사이드 상단 빨간 타이틀 박스 */
+#mainContents aside .importantBox {
+	
+}
+
+#mainContents aside .importantBox header {
+
+}
+
+#mainContents aside .importantBox div {
+
+}
+
+/* == 메인 콘텐츠 좌측 사이드 하단 박스 */
+#mainContents aside article:not(.importantBox) {
+
+}
+
+#mainContents aside #email_list_form {
+
+}
+
+#mainContents aside #email_list_form input[type="email"] {
+
+}
+
+#mainContents aside #email_list_form input[type="button"] {
+
+}
+
+/* 메인 콘텐츠 우측 뉴스 */
+#news {
+
+}
+
+#news article h1 {
+
+}
+
+#news article p {
+
+}
+
+#news hr {
+
+}
+
+/* == 뉴스 아티클 표 */
+#news table {
+
+}
+
+#news table th {
+
+}
+
+#news table #quarter {
+
+}
+
+#news table tbody tr td:first-of-type {
+
+}
+
+#news table tbody tr td {
+
+}
+
+/* == 뉴스 아티클 버튼 */
+#news article .button {
+
+}
+
+/* == 뉴스 아티클 하단 박스 */
+#news #bottomBox {
+
+}
+
+/* 푸터 */
+#wrapper>footer {
+
+}

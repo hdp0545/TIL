@@ -1,0 +1,14 @@
+body {
+	background-color: pink;
+}
+
+span {
+	background-color: yellow;
+}
+
+p {
+	background-color: yellowgreen;
+	border: 2px solid purple;
+	padding: 30px;
+	margin: 40px;
+}

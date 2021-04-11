@@ -1,0 +1,28 @@
+table {
+	border-collapse: collapse;
+	width: 400px;
+}
+
+td, th {
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #999;
+}
+
+th {
+	background-color: lightgray;
+}
+
+caption {
+	font-size: 1.2em;
+	margin: 5px;
+	font-weight: bold;
+}
+
+tbody tr:hover {
+	background-color: yellow;
+}
+
+tbody td:active {
+	background-color: pink;
+}

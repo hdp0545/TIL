@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #3f2f22;
+}
+
+nav {
+	/* 네비게이션의 위치를 조정하기 위해 상대위치 속성과 left 속성을 설정 하였다 */
+	position: relative;
+	left: 200px;
+	font-weight: bold;
+	font-size: 0.85em;
+	/* 네비게이션에서 사용되는 서체의 기본 설정 */
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+ol {
+	/* 절대위치 포지션 설정은 ol 내부의 콘텐츠 크기에 따라 ol 넓이를 자동으로 조절되게 하기 위함이다. */
+	position: absolute;
+	padding: 10px 10px;
+	/* 둥근 모서리를 만들기 위한 속성 설정 */
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	background-color: #f8f4d5;
+}
+
+/* 네비게이션 메뉴 하나 하나의 속성 */
+li {
+	/* 목록 아이템이 인라인으로 보이게 하기 위해 설정 */
+	display: inline;
+	/* 패딩은 메뉴 버튼의 크기 설정을 위해 사용 */
+	padding: 5px;
+}
+
+nav a {
+	/* 링크의 기본 스타일 제거를 위한 설정 */
+	color: black;
+	text-decoration: none;
+}
+
+/* 네비게이션 메뉴에 마우스를 올렸을 때 스타일 - 둥근 모서리에 붉은 색 */
+nav #current, nav li:hover {
+	/* 둥근 모서리를 만들기 위한 속성 설정 */
+	border-radius: 7px;
+	background-color: #b71922;
+}
+
+/* 네비게이션 메뉴에 마우스를 올렸을 때 링크 텍스트 스타일 - 텍스트 색을 흰색으로 */
+nav #current a, nav li a:hover  {
+	color: white;
+}

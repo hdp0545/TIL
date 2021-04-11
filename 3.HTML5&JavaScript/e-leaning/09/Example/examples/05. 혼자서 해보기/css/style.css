@@ -1,0 +1,12 @@
+body {
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+
+input[type="number"] {
+	width: 50px;
+}
+
+#console {
+	font-size: 1.5em;
+}

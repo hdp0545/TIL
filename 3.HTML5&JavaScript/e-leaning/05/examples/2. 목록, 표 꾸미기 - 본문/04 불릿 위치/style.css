@@ -1,0 +1,8 @@
+li {
+	list-style-type: decimal;
+	list-style-position: outside;
+/* 	list-style-position: inside; */
+}
+li>b {
+	color: teal;
+}

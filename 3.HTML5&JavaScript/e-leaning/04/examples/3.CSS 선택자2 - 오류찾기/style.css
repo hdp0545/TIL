@@ -1,0 +1,82 @@
+body {
+	font-size: 0.8em;
+}
+
+fieldset {
+	width: 450px;
+	border: 1px solid gray;
+	background-color: #ddd;
+}
+
+legend {
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 5px;
+	background-color: white;
+	border: 2px solid white;
+	box-shadow: 4px 4px 5px #939393;
+}
+
+p {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 440px;
+
+}
+
+label {
+	display: inline-block;
+	width: 50px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+input {
+	margin-right: 15px;
+	border: 1px solid gray;
+	border-radius: 6px;
+	height: 20px;
+}
+
+textarea {
+	width: 436px;
+	height: 100px;
+	border: 1px solid gray;
+	border-radius: 6px;
+}
+
+button {
+	width: 200px;
+	height: 40px;
+	vertical-align: top;
+	margin: 5px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	font-size: 1.3em;
+}
+
+#c_email {
+	width: 150px;
+}
+
+/* 버튼 사이에 공백을 두기 위해 취소 버튼 왼쪽 마진을 둔다. */
+button[type="reset"] {
+	margin-left: 22px;
+}
+
+/* 패스워드 라벨은 볼드체의 어두운 오렌지 색으로 표시 */
+label[for^="c_pw"] {
+	color: darkorange;
+	font-weight: bold;
+}
+
+/* 반드시 입력해야 하는 폼은 오렌지 두 줄로 표시 */
+input[required] {
+	border: 3px double orange;
+}
+
+/* '_c'로 끝나는 확인용 폼은 배경색을 노란색으로 표시 */
+input[id$="c"] {
+	background-color: yellow;
+}

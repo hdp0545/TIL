@@ -1,0 +1,13 @@
+body {
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+/* 제이쿼리로 선택된 요소에 적용될 스타일 */
+.select {
+	background-color: pink;
+}

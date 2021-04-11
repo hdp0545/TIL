@@ -1,0 +1,29 @@
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+}
+
+h1 {
+	color: gray;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#basket {
+	border: 1px solid lightgray;
+	width: 400px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#basket img {
+	margin-top: 10px;
+}
+
+#fruit_box {
+	margin-top: 30px;
+}
+

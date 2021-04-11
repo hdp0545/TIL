@@ -1,0 +1,12 @@
+h1 {
+	font-size: 1.5em;
+}
+
+ol {
+	list-style: none;
+}
+
+.listTitle {
+	font-weight: bold;
+	color: darkblue;
+}

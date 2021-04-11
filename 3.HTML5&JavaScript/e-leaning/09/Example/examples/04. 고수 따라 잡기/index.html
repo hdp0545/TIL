@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>우리아기 기념일 계산기</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/script.js"></script>		
+	</head>
+	<body>
+		<div id="wrapper">
+		<h1>우리아기 기념일 계산기</h1>
+		<form>
+			<p id="today"></p>
+			<p>우리아기 태어난 날은 :<br>
+				<input value="2012" name="baby_birth_year">년 
+				<select name="baby_birth_month">
+					<option value="0">1월</option>
+					<option value="1">2월</option>
+					<option value="2">3월</option>
+					<option value="3">4월</option>
+					<option value="4">5월</option>
+					<option value="5">6월</option>
+					<option value="6">7월</option>
+					<option value="7">8월</option>
+					<option value="8">9월</option>
+					<option value="9">10월</option>
+					<option value="10">11월</option>
+					<option value="11">12월</option>
+				</select>
+				<input value="1" name="baby_birth_day">일
+				<input type="button" name="count_btn" value="계산하기">
+			</p>
+			<p>우리 아기는 오늘 <input name="today_count" disabled> 일 째 입니다.</p>
+			<hr>
+			<p>우리 아기 <input name="memorial_day"> 일 째 되는 날은?<input type="button" name="memorial_btn" value="계산하기"></p>
+			<p>우리 아기의 <input name="memorial_count"> 일 째 되는 날은 <input name="memorial_date"> 입니다.</p>
+		</form>
+		</div>
+	</body>
+</html>

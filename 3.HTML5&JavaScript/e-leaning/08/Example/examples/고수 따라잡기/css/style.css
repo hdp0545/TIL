@@ -1,0 +1,17 @@
+body {
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em
+}
+
+input[type="text"] {
+	border: 1px solid #999;
+}
+
+input[name="emailid"] {
+	width: 80px;
+	text-align: right;
+}
+
+input[name="emaildomain"] {
+	width: 80px;
+}

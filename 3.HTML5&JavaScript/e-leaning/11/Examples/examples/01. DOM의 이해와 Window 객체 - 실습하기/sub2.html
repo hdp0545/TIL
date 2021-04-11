@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>SUB2.HTML</title>
+	</head>
+	<body>
+		<h1>sub2.html</h1>
+		<p>close window</p>
+		<script>
+			var closeP = document.getElementsByTagName('p');
+			closeP[0].addEventListener('click', closeWindow, false);
+
+			function closeWindow () {
+				window.close();
+			}
+		</script>
+	</body>
+</html>

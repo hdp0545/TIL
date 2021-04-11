@@ -1,0 +1,7 @@
+#example h2:first-of-type {
+	color: aqua;
+}
+
+#example h2:last-of-type {
+	color: fuchsia;
+}

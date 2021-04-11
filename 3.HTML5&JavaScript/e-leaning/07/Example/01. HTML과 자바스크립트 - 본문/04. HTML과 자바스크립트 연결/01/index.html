@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>HTML과 Javascript</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script>
+			function multi() {
+				var firstNum = document.forms[0].firstnumber.value;
+				var secondNum = document.forms[0].secondnumber.value;
+			
+				var multiValue = firstNum * secondNum;
+				document.forms[0].value.setAttribute('value', multiValue);
+			}
+		</script>
+	</head>
+	<body>
+		<h3>곱셈 계산기</h3>
+		<form>
+			<input type="number" name="firstnumber" value="0"> x 
+			<input type="number" name="secondnumber" value="0"> = 
+			<input type="text" name="value">
+			<input type="button" name="button" value="계산하기" onClick="multi()">
+		</form>
+	</body>
+</html>

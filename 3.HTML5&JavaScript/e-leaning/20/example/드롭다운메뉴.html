@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>드롭다운메뉴예제</title>
+<style type="text/css">
+body {font-size:12px;}
+.dmenu dt{border:1px solid #000000; width:110px; padding:5px; cursor:pointer;}
+.dmenu dd{ position:absolute;overflow:hidden;margin:0;display:none;opacity:1}
+.dmenu ul {list-style:none;border:1px solid #000000; width:120px; padding:0;margin:0; border-top:none; }
+.dmenu a {text-decoration:none;color:#000000;display:block;padding:5px;}
+.dmenu a:hover {background:#FF0000;}
+</style>
+<script type="text/javascript">
+var spd = 10;
+var ptime = 15;
+
+function expandMenu(num,dir){
+  var mtobj = document.getElementById('mt_'+num);
+  var smobj = document.getElementById('sm_'+num);
+  clearInterval(smobj.timer);
+  if(dir == "on"){
+    clearTimeout(mtobj.timer);
+    if(smobj.defaultH && smobj.defaultH <= smobj.offsetHeight){
+	}else if(!smobj.defaultH){
+	 smobj.style.display = 'block';
+     smobj.defaultH = smobj.offsetHeight;
+     smobj.style.height = '0px';
+	}
+   smobj.timer = setInterval(function(){menuSlide(smobj,'on')},ptime);
+  }else{
+   mtobj.timer = setTimeout(function(){smobj.timer = setInterval(function(){menuSlide(smobj,'off')},ptime);},ptime);
+  }
+}
+
+function onSub(num){
+	var mtobj = document.getElementById('mt_'+num);
+ 	var smobj = document.getElementById('sm_'+num);
+  	clearTimeout(mtobj.timer);
+    clearInterval(smobj.timer);
+    if(smobj.offsetHeight < smobj.defaultH){
+    smobj.timer = setInterval(function(){menuSlide(smobj,'on')},ptime);
+    } 
+}
+
+function menuSlide(smobj,dir){
+  var smobjH = smobj.offsetHeight;
+  var posH;
+  if(dir == "on"){
+    posH = (Math.ceil((smobj.defaultH - smobjH) / spd));
+	smobj.style.height = smobjH + posH + "px";
+  }else{
+    posH = (Math.ceil(smobjH / spd));
+	smobj.style.height = smobjH - posH + "px";
+  }
+ // smobj.style.opacity = smobjH / smobj.defaultH;
+  if((smobjH == 0 && dir != "on") || (smobjH == smobj.defaultH  && dir == "on")){
+    clearInterval(smobj.timer);
+  } 
+}
+</script>
+</head>
+<body>
+<table>
+<tr><td>
+<dl class="dmenu">
+  <dt id="mt_1" onmouseover="expandMenu(1,'on')" onmouseout="expandMenu(1,'off')" >메인메뉴1</dt>
+  <dd id="sm_1" onmouseover="onSub(1)"  onmouseout="expandMenu(1,'off')">
+    <ul>
+      <li><a href="#">서브메뉴1</a></li>
+      <li><a href="#">서브메뉴2</a></li>
+      <li><a href="#">서브메뉴3</a></li>
+      <li><a href="#">서브메뉴4</a></li>      
+    </ul>
+  </dd>
+</dl>
+</td>
+<td>
+<dl class="dmenu">
+  <dt id="mt_2" onmouseover="expandMenu(2,'on')" onmouseout="expandMenu(2,'off')" >메인메뉴2</dt>
+  <dd id="sm_2" onmouseover="onSub(2)"  onmouseout="expandMenu(2,'off')">
+    <ul>
+      <li><a href="#">서브메뉴1</a></li>
+      <li><a href="#">서브메뉴2</a></li>
+      <li><a href="#">서브메뉴3</a></li>
+      <li><a href="#">서브메뉴4</a></li>      
+    </ul>
+  </dd>
+</dl>
+</td>
+</tr>
+</table>
+</body>
+</html>

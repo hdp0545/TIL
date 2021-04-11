@@ -1,0 +1,1 @@
+for t in range(1, int(input()) + 1):print('#%s %s' % (t, (lambda x: x[0] + x[1])(list(map(int, input().split())))))

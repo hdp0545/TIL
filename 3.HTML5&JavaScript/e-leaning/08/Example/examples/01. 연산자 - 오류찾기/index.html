@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>Sale 계산기</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend>Sale 계산기</legend>
+				<p><label for="productname">제품명: </label>
+					<input type="text" id="productname" name="productname"></p>
+				<p><label for="price">가격: </label>
+					<input type="number" id="price" name="price"></p>
+				<p><label for="discountrate">할인률: </label>
+					<input type="number" id="discountrate" name="discountrate" min="0" max="100" step="5"> % <span class="reference">(0% ~ 100%)</span></p>
+				<p><input type="button" name="button" value="계산하기"></p>
+				<p id="console"></p>
+			</fieldset>
+		</form>
+		
+	</body>
+</html>

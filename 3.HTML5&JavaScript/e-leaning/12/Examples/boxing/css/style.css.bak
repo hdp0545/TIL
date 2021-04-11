@@ -1,0 +1,22 @@
+html {
+	cursor: move;
+	cursor: url(../img/boxing_glove.png);
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+#sandbag {
+	position: absolute;
+	left: 300px;
+	top: 100px;
+	z-index: 1;
+}
+
+#boxingGlove {
+	position: relative;
+	z-index: 2;
+}

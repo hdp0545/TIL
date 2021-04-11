@@ -1,0 +1,18 @@
+.custinput {
+	display: inline-block;
+	width: 120px;
+}
+
+.custinput+input {
+	display: inline-block;
+	width: 150px;
+}
+
+fieldset {
+	width: 250px;
+}
+
+textarea {
+	width: 270px;
+	height: 70px;
+}

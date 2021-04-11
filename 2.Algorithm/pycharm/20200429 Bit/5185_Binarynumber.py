@@ -1,0 +1,1 @@
+for tc in range(1, int(input())+1): print('#{} {}'.format(tc, ''.join([format(int(n, 16), 'b').zfill(4) for n in input().split()[1]])))

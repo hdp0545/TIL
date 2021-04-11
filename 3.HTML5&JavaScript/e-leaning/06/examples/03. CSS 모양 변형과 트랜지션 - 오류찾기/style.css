@@ -1,0 +1,23 @@
+h1 {
+	width: 200px;
+	height: 50px;
+	background-color: pink;
+}
+
+p:first-of-type {
+	width: 200px;
+	height: 50px;
+	background-color: yellowgreen;
+	display: none;
+}
+
+p:nth-of-type(2) {
+	width: 200px;
+	height: 50px;
+	background-color: lightblue;
+}
+
+img[src$="littleprince.png"] {
+	position: absolute;
+	clip: rect(20px 175px 95px 110px);
+}

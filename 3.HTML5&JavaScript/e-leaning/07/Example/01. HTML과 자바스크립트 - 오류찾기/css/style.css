@@ -1,0 +1,17 @@
+body {
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* text 타입 입력 폼의 길이와 보더를 설정 */
+input[type="text"] {
+	width: 50px;
+	border: 1px solid #ccc;
+}
+
+/* name 속성이 'helloMsg'인 입력폼의 넓이, 보더, 글자 크기, 글자 색을 설정 */
+input[name="helloMsg"] {
+	width: 200px;
+	border: none;
+	font-size: 1.2em;
+	color: yellowgreen;
+}

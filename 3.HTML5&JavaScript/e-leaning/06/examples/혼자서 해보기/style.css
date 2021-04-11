@@ -1,0 +1,19 @@
+a.button {
+	display: inline-block;
+	width: 160px;
+	height: 19px;
+	background-image: url(images/normal.png);
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	text-align: center;
+	padding: 8px 0;
+	text-decoration: none;
+	
+	-webkit-transition-property: background-image;
+	-webkit-transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease-in-out;
+}
+
+a.button:hover {
+	background-image: url(images/change.png);
+}

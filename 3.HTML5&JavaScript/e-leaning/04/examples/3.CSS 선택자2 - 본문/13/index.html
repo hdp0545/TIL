@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>Title</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<form action="process.php" method="post">
+			<p><label>이름: <input type="text" maxlength="10" name="name" required></label></p>
+			<fieldset>
+				<legend>성별</legend>
+				<label><input type="radio" name="sex" value="male">남성</label>
+				<label><input type="radio" name="sex" value="female">여성</label>
+			</fieldset>
+			<p><label>전화번호: <input type="tel" name="telnum" maxlength="13" placeholder="000-1234-5678"></label></p>
+			<p><label>이메일: <input type="email" name="email" required></label></p>
+			<p><button type="submit">제출</button></p>
+		</form>
+	</body>
+</html>

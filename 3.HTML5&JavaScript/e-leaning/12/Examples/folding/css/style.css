@@ -1,0 +1,74 @@
+body {
+	font-size: 11pt;
+	line-height: 150%;
+	margin: 0;
+}
+
+.cars {
+	width: 700px;
+	margin: 20px;
+	border: 1px solid gray;
+}
+
+.cars > .title{
+	background-color: #c7c7c7;
+	border-bottom: 1px solid gray;
+	padding: 10px;
+}
+
+.cars > .title > h1 {
+	display: inline;
+}
+
+.cars > .title > a {
+	padding: 0 0 0 30px;
+	text-decoration: none;
+	color: red;
+}
+
+.cars > .data {
+	padding: 10px;
+}
+
+.cars > .data > img {
+	padding: 10px;
+	vertical-align: top;
+	border: 1px solid #575757;
+	-moz-box-shadow: 2px 2px 5px #787878;
+	-webkit-box-shadow: 2px 2px 5px #787878;
+	box-shadow: 2px 2px 5px #787878;
+}
+
+.cars > .data > table {
+	padding: 0;
+	vertical-align: top;
+	line-height: 100%;
+	display: inline-block;
+	font-size: 10pt;
+}
+
+.cars > .data > table th {
+	text-align: right;
+	vertical-align: top;
+	padding-right: 20px;
+	padding-left: 40px;
+}
+
+.cars > .desc {
+	margin: 0;
+	padding: 10px;
+}
+
+.cars > .desc p {
+	margin: 0 0 15px;
+	padding: 0;
+}
+
+.copyright, .copyright a {
+	width: 700px;
+	text-align: right;
+	padding: 0 10px 10px;
+	font-size: 10pt;
+	text-decoration: none;
+	color: #183ae7;
+}

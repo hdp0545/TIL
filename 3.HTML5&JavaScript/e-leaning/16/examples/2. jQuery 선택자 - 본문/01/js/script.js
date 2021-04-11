@@ -1,0 +1,3 @@
+$(function() {
+	$("#firstline").addClass("select");
+});

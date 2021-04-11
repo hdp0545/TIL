@@ -1,0 +1,18 @@
+h1 {
+	width: 200px;
+	height: 50px;
+	background-color: pink;
+}
+
+p:first-of-type {
+	width: 200px;
+	height: 50px;
+	background-color: yellowgreen;
+	visibility: hidden;
+}
+
+p:last-of-type {
+	width: 200px;
+	height: 50px;
+	background-color: lightblue;
+}

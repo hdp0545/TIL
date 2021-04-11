@@ -1,0 +1,13 @@
+p {
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	
+/* 	border: 1px dashed black; */
+/* 	border: 1px dotted black; */
+/* 	border: 3px double black;  */
+/* 	border: 8px groove brown;  */
+/* 	border: 8px ridge brown;  */
+/* 	border: 8px inset brown;  */
+/* 	border: 8px outset brown;  */
+}

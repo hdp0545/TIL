@@ -1,0 +1,17 @@
+p {
+	color: darkred;
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+
+p:first-letter {
+	font-size: 2.5em;
+	color: darkblue;
+	float: left;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+p:first-line {
+	font-weight: bold;
+}

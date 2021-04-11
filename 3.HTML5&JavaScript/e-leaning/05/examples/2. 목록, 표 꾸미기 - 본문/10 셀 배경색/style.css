@@ -1,0 +1,20 @@
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+thead {
+	background-color: #ddd;
+}
+
+tbody {
+	background-color: greenyellow;
+}
+
+td:first-of-type {
+	background-color: yellow;
+}

@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #555;
+}
+
+.productbox {
+	background-color: #ebebeb;
+	width: 275px;
+	padding: 5px;
+	margin-bottom: 18px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+
+.productbox>div {
+	border: 1px dashed #aaa;
+	padding: 7px;
+}
+
+.productbox img {
+	position: relative;
+	vertical-align: top;
+}
+
+.productbox>div>div {
+	position: relative;
+	display: inline-block;
+	width: 190px;
+	margin-left: 8px;
+}
+
+.productbox h3 {
+	color: #333;
+	font-size: 1.25em;
+	line-height: 2em;
+}
+
+.productbox p {
+	line-height: 1.6em;
+	font-size: 0.8em;
+}
+
+.productbox a {
+	display: block;
+	text-decoration: none;
+	color: #36afd3;
+}
+
+.productbox {
+	clip: rect(10px 200px 100px 10px);
+}

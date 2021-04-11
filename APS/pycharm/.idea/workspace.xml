@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3858e80a-4fd4-4383-ade0-592b216b841e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baek_joon/random.py" beforeDir="false" afterPath="$PROJECT_DIR$/baek_joon/random.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="pycharm" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/hdp0545/Lectures.git" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y9Jsmg0b1XHczsHc9wp9LUgD6o" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hdp05\OneDrive\Desktop\git\Lectures\practice\pycharm\programmers Study\Ntech" />
+      <recent name="C:\Users\hdp05\OneDrive\Desktop\git\Lectures\practice\pycharm\programmers Study" />
+      <recent name="C:\Users\multicampus\Desktop\git\Lectures\practice\pycharm\programmers Study\Stack_Que" />
+      <recent name="C:\Users\multicampus\Desktop\git\Lectures\practice\pycharm\programmers Study" />
+      <recent name="C:\Users\multicampus\Desktop\hdp0545\Lectures\note\pycharm\D2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.1922_네트워크연결">
+    <configuration name="10888.음식배달" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pycharm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D4/10888.음식배달.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1922_네트워크연결" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pycharm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baek_joon" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baek_joon/1922_네트워크연결.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2839_설탕배달" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pycharm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baek_joon" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baek_joon/2839_설탕배달.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pycharm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/midas_it" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/midas_it/3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pycharm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/midas_it" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/midas_it/3_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.10888.음식배달" />
+      <item itemvalue="Python.3" />
+      <item itemvalue="Python.3_1" />
+      <item itemvalue="Python.2839_설탕배달" />
+      <item itemvalue="Python.1922_네트워크연결" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.1922_네트워크연결" />
+        <item itemvalue="Python.2839_설탕배달" />
+        <item itemvalue="Python.3_1" />
+        <item itemvalue="Python.3" />
+        <item itemvalue="Python.10888.음식배달" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3858e80a-4fd4-4383-ade0-592b216b841e" name="Default Changelist" comment="" />
+      <created>1580809281787</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580809281787</updated>
+    </task>
+    <task id="LOCAL-00001" summary="test1">
+      <created>1584783790167</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584783790167</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test1" />
+    <option name="LAST_COMMIT_MESSAGE" value="test1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1415" height="267" key="GridCell.Tab.0.bottom" timestamp="1617120797347">
+      <screen x="63" y="0" width="1473" height="864" />
+    </state>
+    <state width="1415" height="267" key="GridCell.Tab.0.bottom/63.0.1473.864@63.0.1473.864" timestamp="1617120797347" />
+    <state width="1415" height="267" key="GridCell.Tab.0.center" timestamp="1617120797346">
+      <screen x="63" y="0" width="1473" height="864" />
+    </state>
+    <state width="1415" height="267" key="GridCell.Tab.0.center/63.0.1473.864@63.0.1473.864" timestamp="1617120797346" />
+    <state width="1415" height="267" key="GridCell.Tab.0.left" timestamp="1617120797346">
+      <screen x="63" y="0" width="1473" height="864" />
+    </state>
+    <state width="1415" height="267" key="GridCell.Tab.0.left/63.0.1473.864@63.0.1473.864" timestamp="1617120797346" />
+    <state width="1415" height="267" key="GridCell.Tab.0.right" timestamp="1617120797347">
+      <screen x="63" y="0" width="1473" height="864" />
+    </state>
+    <state width="1415" height="267" key="GridCell.Tab.0.right/63.0.1473.864@63.0.1473.864" timestamp="1617120797347" />
+    <state width="1415" height="267" key="GridCell.Tab.1.bottom" timestamp="1617120797348">
+      <screen x="63" y="0" width="1473" height="864" />
+    </state>
+    <state width="1415" height="267" key="GridCell.Tab.1.bottom/63.0.1473.864@63.0.1473.864" timestamp="1617120797348" />
+    <state width="1415" height="267" key="GridCell.Tab.1.center" timestamp="1617120797347">
+      <screen x="63" y="0" width="1473" height="864" />
+    </state>
+    <state width="1415" height="267" key="GridCell.Tab.1.center/63.0.1473.864@63.0.1473.864" timestamp="1617120797347" />
+    <state width="1415" height="267" key="GridCell.Tab.1.left" timestamp="1617120797347">
+      <screen x="63" y="0" width="1473" height="864" />
+    </state>
+    <state width="1415" height="267" key="GridCell.Tab.1.left/63.0.1473.864@63.0.1473.864" timestamp="1617120797347" />
+    <state width="1415" height="267" key="GridCell.Tab.1.right" timestamp="1617120797348">
+      <screen x="63" y="0" width="1473" height="864" />
+    </state>
+    <state width="1415" height="267" key="GridCell.Tab.1.right/63.0.1473.864@63.0.1473.864" timestamp="1617120797348" />
+    <state x="156" y="93" width="1287" height="678" key="dock-window-1" timestamp="1616509296773">
+      <screen x="63" y="0" width="1473" height="864" />
+    </state>
+    <state x="156" y="93" width="1287" height="678" key="dock-window-1/63.0.1473.864@63.0.1473.864" timestamp="1616509296773" />
+    <state x="156" y="93" width="1287" height="678" key="dock-window-2" timestamp="1616509296773">
+      <screen x="63" y="0" width="1473" height="864" />
+    </state>
+    <state x="156" y="93" width="1287" height="678" key="dock-window-2/63.0.1473.864@63.0.1473.864" timestamp="1616509296773" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/D2/1204. most frequent.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/D2/1215.palindrome.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/baek_joon/1244_switch.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/202003-baek_joon_test/13460_구슬탈출2.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/baek_joon/16235_나무재테크.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/baek_joon/19236_청소년상어.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/baek_joon/1956. 운동.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/baek_joon/1393_음하철도998.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/baek_joon/1011_Fly me to the Alpha Centauri.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/programmers Study/Stack_Que/기능개발.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/programmers Study/skill check level1.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/programmers Study/Ntech/2.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/programmers Study/11번가/2.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/programmers Study/Ntech/3.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/midas_it/3_1.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/baek_joon/1922_네트워크연결.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

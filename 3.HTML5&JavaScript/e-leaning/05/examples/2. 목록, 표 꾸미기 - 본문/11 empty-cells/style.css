@@ -1,0 +1,29 @@
+table {
+	empty-cells: hide;
+	caption-side: bottom;
+}
+
+th, td {
+	border: 1px solid #888;
+	width: 120px;
+	text-align: center;
+	padding: 3px 10px;
+}
+
+th+td, th+td+td {
+	text-align: right;
+}
+
+th {
+	background-color: #ddd;
+}
+
+caption {
+	text-align: left;
+	font-size: 0.8em;
+	padding: 5px 10px 0 10px;
+}
+
+cite {
+	float: right;
+}

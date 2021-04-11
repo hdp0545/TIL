@@ -1,0 +1,16 @@
+p {
+	-webkit-transition: background-color 0.5s ease-in, -webkit-transform 0.5s ease-out;
+	-moz-transition: background-color 0.5s ease-in, -moz-transform 0.5s ease-out;
+	-o-transition: background-color 0.5s ease-in, -o-transform 0.5s ease-out;
+	
+	width: 100px;
+	height: 100px;
+	background-color: yellowgreen;
+}
+
+p:active {
+	background-color: orange;
+	-webkit-transform: translateX(300px);
+	-moz-transform: translateX(300px);
+	-o-transform: translateX(300px);
+}

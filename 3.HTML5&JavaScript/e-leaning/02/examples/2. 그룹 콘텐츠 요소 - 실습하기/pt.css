@@ -1,0 +1,19 @@
+footer p {
+	font-size: 0.8em;
+	color: gray;
+	text-align: right;
+}
+#ptSkill {
+	list-style-type: upper-roman;
+}
+.sub {
+	list-style-type: lower-roman;
+}
+
+.subsub {
+	list-style-type: lower-latin
+}
+
+#ptSkill h2 {
+	color: brown;
+}

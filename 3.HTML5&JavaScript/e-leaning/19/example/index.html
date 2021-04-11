@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+   <meta charset="utf-8"/>
+   <title> Example Banner</title>
+   <link rel="stylesheet" href="css/style.css">
+   
+   <script type="text/javascript">
+   function swapimg_over(obj,srcstr){
+	if(!document.getElementByld(obj).hasAttribute("osrc")){
+	     var osrcstr = document.getElementByld(obj).getAttribute("src");
+		 document.getElementByld(obj).setAttribute("osrc",osrcstr);
+	}
+    document.getElementByld(obj).setAttribute("src",srcstr);
+   }
+
+   function swapimg_out(obj){
+	var osrcstr = document.getElementByld(obj).getAttribute("osrc");
+    document.getElementByld(obj).setAttribute("src",osrcstr);
+	document.getElementByld(obj).removeAttribute("osrc");
+   }
+   </script>
+ 
+ </head>
+ <body>
+   <a class="ban" href ="http://www.html5rocks.com/en/">
+    <img class="banbg" src="images/logo.png" onmouseover="this.src='images/ban_bg.png'">
+   </a>
+ </body>
+</html>

@@ -1,0 +1,70 @@
+body {
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+.album {
+	margin-bottom: 30px; 
+	width: 480px;
+}
+
+.album ol {
+	position: relative;
+	left: 150px;
+}
+
+.album img {
+	position: absolute;
+	margin-top: 40px;
+	width: 150px;
+}
+
+.album>p {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ddd;
+	color: #555;
+	text-align: right;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.album ol li {
+	margin: 0 0 10px;
+	padding: 0;
+	color: #555;
+	font-size: 0.8em;
+	width: 290px;
+	height: 35px;
+/* 	border: 1px solid; */
+}
+
+.album ol li p {
+	display: inline;
+}
+
+.album ol li p:first-child {
+	
+}
+
+.album ol li p:nth-child(2) {
+	position: absolute;
+	left: 40px;
+	margin: 20px 0 0 0;
+	color: #aaa;
+	font-style: italic;
+	font-size: 0.8em;
+}
+
+.album ol li p:last-child {
+	position: absolute;
+	left: 300px;
+	margin: 0;
+	color: #aaa;
+	font-size: 0.8em;
+}
+
+.select {
+	background-color: pink;
+}

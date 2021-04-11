@@ -1,0 +1,10 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#drag {
+	position: relative;
+	top: 40px;
+	left: 40px;
+}

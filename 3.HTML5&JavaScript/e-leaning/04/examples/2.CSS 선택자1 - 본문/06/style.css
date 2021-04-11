@@ -1,0 +1,7 @@
+h1+p {
+	color: pink;
+}
+
+h1+p strong {
+	color: green;
+}

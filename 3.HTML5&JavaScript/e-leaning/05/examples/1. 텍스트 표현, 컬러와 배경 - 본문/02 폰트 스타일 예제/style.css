@@ -1,0 +1,14 @@
+p {
+	font-family: NanumGothic, AppleGothic, sans-serif;
+	font-size: 13pt;
+}
+
+#secondline {
+	font-size: 1.3em;
+	color: red;
+}
+
+#musicaltitle {
+	font-style: italic;
+	font-weight: bold;
+}

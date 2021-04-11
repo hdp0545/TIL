@@ -1,0 +1,15 @@
+body {
+	font-size: 0.8em;
+}
+label {
+	float: left;
+	width: 8em;
+}
+
+input+label{
+	float: none;
+}
+
+label>select, label>input {
+	float: right;
+}

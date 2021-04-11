@@ -1,0 +1,63 @@
+body {
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	color: #555;
+}
+
+form {
+	width: 500px;
+}
+
+fieldset {
+	width: 500px;
+	margin: 0 0 30px 0;
+	border: 1px solid lightgray;
+	background-color: lightgray;
+	padding: 20px 0;
+}
+
+legend {
+	background-color: gray;
+	color: white;
+	text-align: center;
+}
+
+label {
+	margin: 0 10px;
+}
+
+textarea {
+	width: 450px;
+	height: 200px;
+}
+
+p {
+	width: 450px;
+	margin: 0 auto;
+}
+
+form>P {
+	width: 150px;
+}
+
+input:not(#button){
+	width: 100px;
+	border: 1px solid lightgray;
+}
+
+textarea {
+	border: 1px solid lightgray;
+}
+
+#button {
+	width: 150px;
+	font-size: 1.2em;
+}
+
+#console {
+	padding: 20px;
+}
+
+.funcBody {
+	margin: 0 0 0 30px;
+}

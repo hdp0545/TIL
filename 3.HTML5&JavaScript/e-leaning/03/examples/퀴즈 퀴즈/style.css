@@ -1,0 +1,57 @@
+table {
+	border-collapse: collapse;
+	width: 500px;
+}
+
+td, th {
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #999;
+}
+
+thead {
+	background-color: #ccc;
+}
+
+.odd {
+	background-color: #dff7fd
+}
+
+form {
+	width: 500px;
+	color: #555;
+}
+
+input {
+	width: 200px;
+	height: 20px;
+	border: 1px solid #aaa;
+}
+
+fieldset input {
+	width: 15px;
+}
+
+label {
+	font-size: 0.9em;
+}
+
+input + label {
+	margin-left: 10px;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+}
+
+h1{
+	font-size: 1.8em;
+}
+
+hr {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 500px;
+	margin-left: 0;
+}

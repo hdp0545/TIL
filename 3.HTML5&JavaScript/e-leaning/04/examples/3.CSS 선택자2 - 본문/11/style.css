@@ -1,0 +1,15 @@
+header {
+	text-align: center;
+}
+
+header>h3:before {
+	content: ">> ";
+	font-weight: normal;
+	color: gray;
+}
+
+header>h3:after {
+	content: " <<";
+	font-weight: normal;
+	color: gray;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>Title</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<p id="console"></p>
+	</body>
+	<script>
+		integerTest();
+		
+		function integerTest() {
+			var integerMax = 9007199254740992;
+			var integerMin = -integerMax;
+			var outputHTML = "";
+			
+			outputHTML += "9007199254740992 + 1 = " + (integerMax + 1) + "<br>";
+			outputHTML += "-9007199254740992 - 1 = " + (integerMin - 1);
+			
+			console (outputHTML);
+		}
+		
+		function console (outputString) {
+			document.getElementById('console').innerHTML = outputString;
+		}
+	</script>
+</html>

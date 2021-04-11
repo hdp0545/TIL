@@ -1,0 +1,32 @@
+#wrapper {
+	width: 340px;
+	margin: 0 auto;
+}
+
+div:not(#wrapper) {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border: 4px dashed black;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.blue {
+	background-color: skyblue;
+}
+
+.orange {
+	background-color: orange;
+}
+
+p {
+	text-align: right
+}

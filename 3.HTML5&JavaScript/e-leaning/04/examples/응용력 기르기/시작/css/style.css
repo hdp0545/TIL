@@ -1,0 +1,55 @@
+* {
+
+}
+
+body {
+	
+}
+
+#wrapper {
+
+}
+
+#wrapper>header {
+	background-color: orange;
+}
+
+#wrapper>header hgroup {
+
+}
+
+#wrapper>nav {
+
+}
+
+#slogan {
+	background-color: pink;
+}
+
+#slogan img[alt="banner image"] {
+
+}
+
+#slogan div {
+
+}
+
+#slogan div p em {
+
+}
+
+#slogan div  p img {
+
+}
+
+#slogan div  p .desc {
+
+}
+
+#mainContents {
+	background-color: yellow;
+}
+
+#mainContents aside {
+	background-color: lightblue;
+}

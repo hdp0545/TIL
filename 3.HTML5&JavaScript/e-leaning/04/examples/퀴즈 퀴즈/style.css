@@ -1,0 +1,39 @@
+h1 {
+	color: blue;
+}
+
+p:first-of-type {
+	color: pink;
+}
+
+li:nth-of-type(1) {
+	color: red;
+}
+
+li:first-of-type+li {
+	color: orange;
+}
+
+li:last-of-type {
+	color: purple;
+}
+
+p:nth-last-of-type(2) {
+	color: green;
+}
+
+p:last-child {
+	color: yellowgreen;
+}
+
+p :only-child {
+	color: gray;
+}
+
+*[title$="text"] {
+	text-decoration: underline;
+}
+
+li[title] {
+	font-size: 1.2em;
+}

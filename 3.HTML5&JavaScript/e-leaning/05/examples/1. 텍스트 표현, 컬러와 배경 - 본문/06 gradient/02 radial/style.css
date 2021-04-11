@@ -1,0 +1,10 @@
+body {
+
+	background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,238,5,1) 50%, rgba(255,0,4,1) 100%);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,238,5,1) 50%, rgba(255,0,4,1) 100%);
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,238,5,1) 50%, rgba(255,0,4,1) 100%);
+}
+
+p {
+	height: 200px;
+}

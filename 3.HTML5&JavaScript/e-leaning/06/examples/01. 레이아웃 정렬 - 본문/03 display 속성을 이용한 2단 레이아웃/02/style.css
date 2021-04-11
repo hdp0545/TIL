@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	width: 700px;
+	background-color: gray;
+	font-size: 0;
+}
+
+body {
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+
+header {
+	width: 680px;
+	height: 80px;
+	padding: 10px;
+	background-color: lightgray;
+	font-size: small;
+}
+
+nav {
+	display: inline-block;
+	width: 160px;
+	padding: 10px;	
+	vertical-align: top;
+	
+	font-size: small;
+}
+
+nav+section {
+	display: inline-block;
+	width: 500px;
+	padding: 10px;
+	background-color: darkgray;
+	font-size: small;
+}
+
+footer {
+	width: 690px;
+	padding: 5px;
+	background-color: black;
+	color: white;
+	font-size: small;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+li {
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: red;
+}

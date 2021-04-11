@@ -1,0 +1,13 @@
+/*
+h2:nth-of-type(1) {
+	color: pink;
+}
+
+h2:nth-last-of-type(2) {
+	color: red;
+}
+*/
+
+h2:first-of-type {
+	color: purple;
+}

@@ -1,0 +1,31 @@
+window.addEventListener('load', init, false);
+
+function init (event) {
+	var banlogos = document.getElementsByClassName("banlogo");
+	for (var i=0; i<banlogos.length; i++) {
+		banlogos[i].addEventListener('mouseover', mouseOver, false);
+		banlogos[i].addEventListener('mousemove', mouseOver, false);
+		banlogos[i].addEventListener('mouseout', mouseOut, false);
+	}
+}
+
+function mouseOver (event) {
+	event.preventDefault();
+	document.body.style.cursor = "help";
+	var banlogoContents = event.target.getAttribute("desc");
+	var tipBox = document.getElementById("tipBox")
+
+	tipBox.innerHTML = banlogoContents;
+	var mousePosX = event.clientX+20;
+	var mousePosY = event.clientY+10;
+
+	tipBox.style.display = "block";
+	tipBox.style.left = mousePosX + "px";
+	tipBox.style.top = mousePosY + "px";
+}
+
+function mouseOut (event) {
+	event.preventDefault();
+	document.body.style.cursor = "default";
+	document.getElementById("tipBox").style.display = "none"
+}

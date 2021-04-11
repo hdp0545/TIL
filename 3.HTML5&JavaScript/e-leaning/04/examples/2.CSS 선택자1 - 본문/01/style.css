@@ -1,0 +1,12 @@
+div {
+	width: 200px;
+}
+
+.mycomment { 
+	color: gray; 
+	font-weight: bold; 
+}
+.fignumber { 
+	font-size: 0.8em; 
+	float: right; 
+}

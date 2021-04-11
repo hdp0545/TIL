@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Title</title>
+	<script src="script.js"></script>
+</head>
+<body>
+	<form name="personalInfo">
+		<fieldset>
+			<legend>개인정보</legend>
+			<p>
+				<label>성별: </label>
+				<input type="radio" id="male" name="gender" value="male"><label for="male">남성</label>
+				<input type="radio" id="female" name="gender" value="female"><label for="female">여성</label>
+			</p>
+			<p><label>생년월일: <input type="date" name="birthday"></label></p>
+			<p><label>주민등록번호: </label><input maxlength="6" name="IDcode1"> - <input maxlength="7" name="IDcode2"></p>
+			<p><label>휴대전화: </label>
+				<select id="telCode" name="telCode">
+					<option value="010">010</option>
+					<option value="011">011</option>
+					<option value="016">016</option>
+					<option value="017">017</option>
+					<option value="019">019</option>
+				</select>
+				- <input type="tel" name="telNum" placeholder="1234-5678">
+			</p>
+			<p><input type="button" name="button" value="입력완료"></p>
+		</fieldset> 
+	</form>
+</body>
+</html>

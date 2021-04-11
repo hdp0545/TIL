@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>HTML과 Javascript</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h3>이름을 입력해 주세요.</h3>
+		<form>
+			<p>성을 입력해 주세요: <input type="text" name="familyName" ></p>
+			<p>이름을 입력해 주세요: <input type="text" name="name" ></p>
+			<!-- '입력완료' 버튼을 누르면 자바스크립트 함수인 fullName()가 실행되도록 onClick 이벤트 속성을 이용하였다. -->
+			<p><input type="button" value="입력완료" onClick="fullName()"></p>
+			
+			<p><input type="text" name="helloMsg"></p>
+		</form>
+		<script src="js/script.js"></script>
+	</body>
+</html>

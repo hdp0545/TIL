@@ -1,0 +1,15 @@
+body {
+	padding: 20px;
+	background: #333;
+}
+
+.ban{
+	display: block;
+	width: 728px;
+	height: 176px;
+	border: 0px;
+}
+
+.ban.banbg{
+	border: 0px;
+}

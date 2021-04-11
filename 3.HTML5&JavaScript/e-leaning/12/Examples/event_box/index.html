@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>DOM Script Event Example</title>
+		<style>
+			#pinkLayer {]
+				position: relative;
+				background-color: pink;
+				width: 600px;
+				height: 300px;
+			}
+			#yellowLayer {
+				background-color: yellow;
+				position: absolute;
+				top: 50px;
+				left: 100px;
+				width: 200px;
+				height: 200px;
+			}
+			#greenLayer {
+				background-color: greenyellow;
+				position: absolute;
+				top: 50px;
+				left: 320px;
+				width: 200px;
+				height: 200px;
+			}
+		</style>
+		<script>
+			window.addEventListener('load', setEvent, false);
+
+			function setEvent (event) {
+				document.getElementById("pinkLayer").addEventListener('click', pinkClick, false);
+				document.getElementById("yellowLayer").addEventListener('click', yellowClick, false);
+				document.getElementById("greenLayer").addEventListener('click', greenClcik, false);
+			}
+
+			function pinkClick (event) {
+				alert(outputString(event));
+			}
+
+			function yellowClick (event) {
+				event.preventDefault();
+				var test = event.stopPropagation();
+				alert(outputString(event));
+			}
+
+			function greenClcik (event) {
+				event.preventDefault();
+				event.stopPropagation();
+				alert(outputString(event));
+			}
+
+			function outputString (evt) {
+				var eventTime = new Date(evt.timeStamp).toLocaleTimeString();
+				var outputString = eventTime + "에 "
+				outputString += (evt.target.getAttribute("id") + "를 클릭하셨습니다.");
+				return outputString;
+			}
+		</script>
+
+	</head>
+	
+	<body>
+		<div id="pinkLayer">
+			<div id="yellowLayer"></div>
+			<div id="greenLayer"></div>
+		</div>
+	</body>
+</html>

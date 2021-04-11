@@ -1,0 +1,4 @@
+img[src$="littleprince.png"] {
+	position: absolute;
+	clip: rect(20px 175px 95px 110px);
+}

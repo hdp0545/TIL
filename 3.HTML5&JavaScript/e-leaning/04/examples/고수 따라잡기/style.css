@@ -1,0 +1,60 @@
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	background-color: #aba7da;
+	margin-bottom: 1px;
+	padding: 5px;
+	width: 180px;
+	border: 1px solid gray;
+}
+
+li a {
+	text-decoration: none;
+	color: #333;
+}
+
+li:hover, li>a:hover {
+	background-color: #6e3ca7;
+	color: white;
+}
+
+li:active {
+	background-color: #bd5353;
+}
+
+
+li>a:before {
+	content: url("images/whitebullet.png");
+	margin-right: 5px;
+}
+
+li>a[href$=".doc"]:after {
+	content: "DOC";
+	margin-left: 5px;
+	padding: 1px 3px;
+	color: white;
+	font-size: 0.5em;
+	background-color: darkorange;
+}
+
+li>a[href$=".xls"]:after {
+	content: "Exel";
+	margin-left: 5px;
+	padding: 1px 3px;
+	color: white;
+	font-size: 0.5em;
+	background-color: darkorange;
+}
+
+li>a[href$=".pdf"]:after {
+	content: "PDF";
+	margin-left: 5px;
+	padding: 1px 3px;
+	color: white;
+	font-size: 0.5em;
+	background-color: darkorange;
+}

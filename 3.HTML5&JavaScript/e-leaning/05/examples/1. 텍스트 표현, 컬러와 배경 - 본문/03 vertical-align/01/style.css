@@ -1,0 +1,12 @@
+p {
+	color: red;
+	font-family: Impact, Helvetica, Arial, sans-serif;
+	font-size: 50pt;
+	letter-spacing: -0.02em
+}
+
+#musical {
+	color: black;
+	font-size: 25pt;
+	vertical-align: text-top
+}
