@@ -1,0 +1,6 @@
+w, h = map(int, input().split())
+p, q = map(int, input().split())
+t = int(input())
+r1 = w - abs((t + p) % (2 * w) - w)
+r2 = h - abs((t + q) % (2 * h) - h)
+print(r1, r2)

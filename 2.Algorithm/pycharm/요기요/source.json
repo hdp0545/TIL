@@ -1,0 +1,8 @@
+{ "items" : [
+  {"name" : "the Shawshank Redemption", "tags" :  ["90s", "drama"]},
+  {"name" : "80", "tags" :  ["80s", "crime"]},
+  {"name" : "70", "tags" :  ["70s", "action"]},
+  {"name" : "60", "tags" :  ["60s", "drama"]},
+  {"name" : "50", "tags" :  ["50s", "crime", "drama"]},
+  {"name" : "the Shawshank Redemption", "tags" :  ["action", "drama"]}
+] }
