@@ -10,3 +10,7 @@ for test_case in range(1, T+1):
             min_n = N_list[n]
 
     print('#{} {}'.format(test_case, max_n - min_n))
+
+
+
+    name = ""

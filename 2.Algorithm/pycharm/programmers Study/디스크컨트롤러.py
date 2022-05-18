@@ -2,7 +2,6 @@ import heapq
 
 def solution(jobs):
     tot = 0
-    jobs.sort(key=lambda x:x[1])
     jobs.sort()
     time = 0
     stack = []
@@ -27,10 +26,7 @@ def solution(jobs):
                 heapq.heappush(stack, (job[1], job[0]))
     while stack:
         du, st = heapq.heappop(stack)
-        if time >= st:
-            time += du
-        else:
-            time = st + du
+        time += du
         tot += time - st
     return tot // len(jobs)
 
