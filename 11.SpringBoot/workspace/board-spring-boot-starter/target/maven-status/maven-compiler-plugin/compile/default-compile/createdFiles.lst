@@ -1,0 +1,5 @@
+com\rubypaper\config\ConnectionManagerProperties.class
+com\rubypaper\jdbc\ConnectionManager.class
+com\rubypaper\config\BoardAutoConfiguration.class
+META-INF\spring-configuration-metadata.json
+com\rubypaper\App.class

@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>500 에러 Page!</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<center>
+<h1><font color="green">Exception 발생!</font></h1>
+<a th:href="@{/}">메인 화면으로</a>
+<hr>
+<table>
+<tr bgcolor="gray">
+<td>
+<p th:text="${'예외 발생 경로 : ' + path}"></p>
+<p th:text="${'예외 발생 시간 : ' + timestamp}"></p>
+<p th:text="${'예외 타입 : ' + exception}"></p>
+<p th:text="${'예외 메시지 : ' + message}"></p>
+</td>
+</tr>
+<tr><td><p th:text="${trace}"></p></td></tr>
+</table>
+</center>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "board.jdbc",
+      "type": "com.rubypaper.config.ConnectionManagerProperties",
+      "sourceType": "com.rubypaper.config.ConnectionManagerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "board.jdbc.driver-class",
+      "type": "java.lang.String",
+      "sourceType": "com.rubypaper.config.ConnectionManagerProperties"
+    },
+    {
+      "name": "board.jdbc.password",
+      "type": "java.lang.String",
+      "sourceType": "com.rubypaper.config.ConnectionManagerProperties"
+    },
+    {
+      "name": "board.jdbc.url",
+      "type": "java.lang.String",
+      "sourceType": "com.rubypaper.config.ConnectionManagerProperties"
+    },
+    {
+      "name": "board.jdbc.username",
+      "type": "java.lang.String",
+      "sourceType": "com.rubypaper.config.ConnectionManagerProperties"
+    }
+  ],
+  "hints": []
+}

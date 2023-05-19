@@ -1,0 +1,202 @@
+2023-05-17T11:15:44.659+09:00  INFO 9500 --- [restartedMain] com.rubypaper.Chapter03Application       : Starting Chapter03Application using Java 17.0.7 with PID 9500 (C:\DEV\workspace\Chapter03\target\classes started by student in C:\DEV\workspace\Chapter03)
+2023-05-17T11:15:44.659+09:00 DEBUG 9500 --- [restartedMain] com.rubypaper.Chapter03Application       : Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-17T11:15:44.660+09:00  INFO 9500 --- [restartedMain] com.rubypaper.Chapter03Application       : No active profile set, falling back to 1 default profile: "default"
+2023-05-17T11:15:44.770+09:00  INFO 9500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2023-05-17T11:15:44.772+09:00  INFO 9500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-17T11:15:44.772+09:00  INFO 9500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17T11:15:44.778+09:00  INFO 9500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-17T11:15:44.778+09:00  INFO 9500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 117 ms
+2023-05-17T11:15:44.785+09:00  INFO 9500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-05-17T11:15:44.795+09:00  INFO 9500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:tcp://localhost/~/test user=SA
+2023-05-17T11:15:44.795+09:00  INFO 9500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-05-17T11:15:44.795+09:00  INFO 9500 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/test'
+2023-05-17T11:15:44.851+09:00  INFO 9500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-17T11:15:44.857+09:00  INFO 9500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2023-05-17T11:15:44.859+09:00  INFO 9500 --- [restartedMain] com.rubypaper.Chapter03Application       : Started Chapter03Application in 0.226 seconds (process running for 96.789)
+2023-05-17T11:15:44.860+09:00 DEBUG 9500 --- [restartedMain] com.rubypaper.service.LoggingService     : DEBUG 레벨 로그
+2023-05-17T11:15:44.860+09:00  INFO 9500 --- [restartedMain] com.rubypaper.service.LoggingService     : INFO 레벨 로그
+2023-05-17T11:15:44.860+09:00  WARN 9500 --- [restartedMain] com.rubypaper.service.LoggingService     : WARN 레벨 로그
+2023-05-17T11:15:44.860+09:00 ERROR 9500 --- [restartedMain] com.rubypaper.service.LoggingService     : ERROR 레벨 로그
+2023-05-17T11:15:44.861+09:00  INFO 9500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-17T11:18:17.416+09:00  INFO 9500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-17T11:18:17.424+09:00  INFO 9500 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-17T11:18:17.638+09:00  WARN 9500 --- [Thread-7] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-17T11:18:17.640+09:00  INFO 9500 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-05-17T11:18:17.652+09:00  INFO 9500 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-05-17T11:18:17.695+09:00  INFO 9500 --- [restartedMain] com.rubypaper.Chapter03Application       : Starting Chapter03Application using Java 17.0.7 with PID 9500 (C:\DEV\workspace\Chapter03\target\classes started by student in C:\DEV\workspace\Chapter03)
+2023-05-17T11:18:17.695+09:00 DEBUG 9500 --- [restartedMain] com.rubypaper.Chapter03Application       : Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-17T11:18:17.695+09:00  INFO 9500 --- [restartedMain] com.rubypaper.Chapter03Application       : No active profile set, falling back to 1 default profile: "default"
+2023-05-17T11:18:17.797+09:00  INFO 9500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2023-05-17T11:18:17.797+09:00  INFO 9500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-17T11:18:17.797+09:00  INFO 9500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17T11:18:17.803+09:00  INFO 9500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-17T11:18:17.804+09:00  INFO 9500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 108 ms
+2023-05-17T11:18:17.812+09:00  INFO 9500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-05-17T11:18:17.821+09:00  INFO 9500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:tcp://localhost/~/test user=SA
+2023-05-17T11:18:17.821+09:00  INFO 9500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-05-17T11:18:17.821+09:00  INFO 9500 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/test'
+2023-05-17T11:18:17.872+09:00  INFO 9500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-17T11:18:17.877+09:00  INFO 9500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2023-05-17T11:18:17.879+09:00  INFO 9500 --- [restartedMain] com.rubypaper.Chapter03Application       : Started Chapter03Application in 0.199 seconds (process running for 249.809)
+2023-05-17T11:18:17.880+09:00 DEBUG 9500 --- [restartedMain] com.rubypaper.service.LoggingService     : DEBUG 레벨 로그
+2023-05-17T11:18:17.880+09:00  INFO 9500 --- [restartedMain] com.rubypaper.service.LoggingService     : INFO 레벨 로그
+2023-05-17T11:18:17.880+09:00  WARN 9500 --- [restartedMain] com.rubypaper.service.LoggingService     : WARN 레벨 로그
+2023-05-17T11:18:17.880+09:00 ERROR 9500 --- [restartedMain] com.rubypaper.service.LoggingService     : ERROR 레벨 로그
+2023-05-17T11:18:17.880+09:00  INFO 9500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-17T11:20:12.139+09:00  INFO 9500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-17T11:20:12.147+09:00  INFO 9500 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-17T11:20:12.359+09:00  WARN 9500 --- [Thread-11] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-17T11:20:12.361+09:00  INFO 9500 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-05-17T11:20:12.366+09:00  INFO 9500 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-05-17T11:20:12.403+09:00  INFO 9500 --- [restartedMain] com.rubypaper.Chapter03Application       : Starting Chapter03Application using Java 17.0.7 with PID 9500 (C:\DEV\workspace\Chapter03\target\classes started by student in C:\DEV\workspace\Chapter03)
+2023-05-17T11:20:12.403+09:00 DEBUG 9500 --- [restartedMain] com.rubypaper.Chapter03Application       : Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-17T11:20:12.403+09:00  INFO 9500 --- [restartedMain] com.rubypaper.Chapter03Application       : No active profile set, falling back to 1 default profile: "default"
+2023-05-17T11:20:12.500+09:00  INFO 9500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2023-05-17T11:20:12.500+09:00  INFO 9500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-17T11:20:12.500+09:00  INFO 9500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17T11:20:12.508+09:00  INFO 9500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-17T11:20:12.508+09:00  INFO 9500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 104 ms
+2023-05-17T11:20:12.517+09:00  INFO 9500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-05-17T11:20:12.524+09:00  INFO 9500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn30: url=jdbc:h2:tcp://localhost/~/test user=SA
+2023-05-17T11:20:12.524+09:00  INFO 9500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-05-17T11:20:12.524+09:00  INFO 9500 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/test'
+2023-05-17T11:20:12.572+09:00  INFO 9500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-17T11:20:12.577+09:00  INFO 9500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2023-05-17T11:20:12.580+09:00  INFO 9500 --- [restartedMain] com.rubypaper.Chapter03Application       : Started Chapter03Application in 0.189 seconds (process running for 364.51)
+2023-05-17T11:20:12.580+09:00 DEBUG 9500 --- [restartedMain] com.rubypaper.service.LoggingService     : DEBUG 레벨 로그
+2023-05-17T11:20:12.580+09:00  INFO 9500 --- [restartedMain] com.rubypaper.service.LoggingService     : INFO 레벨 로그
+2023-05-17T11:20:12.580+09:00  WARN 9500 --- [restartedMain] com.rubypaper.service.LoggingService     : WARN 레벨 로그
+2023-05-17T11:20:12.580+09:00 ERROR 9500 --- [restartedMain] com.rubypaper.service.LoggingService     : ERROR 레벨 로그
+2023-05-17T11:20:12.581+09:00  INFO 9500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-17T11:20:45.498+09:00  INFO 9500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-17T11:20:45.507+09:00  INFO 9500 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-17T11:20:45.717+09:00  WARN 9500 --- [Thread-15] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-17T11:20:45.718+09:00  INFO 9500 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-05-17T11:20:45.723+09:00  INFO 9500 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-05-17T11:20:45.759+09:00  INFO 9500 --- [restartedMain] com.rubypaper.Chapter03Application       : Starting Chapter03Application using Java 17.0.7 with PID 9500 (C:\DEV\workspace\Chapter03\target\classes started by student in C:\DEV\workspace\Chapter03)
+2023-05-17T11:20:45.760+09:00 DEBUG 9500 --- [restartedMain] com.rubypaper.Chapter03Application       : Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-17T11:20:45.760+09:00  INFO 9500 --- [restartedMain] com.rubypaper.Chapter03Application       : No active profile set, falling back to 1 default profile: "default"
+2023-05-17T11:20:45.854+09:00  INFO 9500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2023-05-17T11:20:45.854+09:00  INFO 9500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-17T11:20:45.854+09:00  INFO 9500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17T11:20:45.862+09:00  INFO 9500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-17T11:20:45.862+09:00  INFO 9500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 101 ms
+2023-05-17T11:20:45.871+09:00  INFO 9500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-05-17T11:20:45.879+09:00  INFO 9500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection conn40: url=jdbc:h2:tcp://localhost/~/test user=SA
+2023-05-17T11:20:45.879+09:00  INFO 9500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-05-17T11:20:45.879+09:00  INFO 9500 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/test'
+2023-05-17T11:20:45.925+09:00  INFO 9500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-17T11:20:45.929+09:00  INFO 9500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2023-05-17T11:20:45.933+09:00  INFO 9500 --- [restartedMain] com.rubypaper.Chapter03Application       : Started Chapter03Application in 0.184 seconds (process running for 397.862)
+2023-05-17T11:20:45.933+09:00 DEBUG 9500 --- [restartedMain] com.rubypaper.service.LoggingService     : DEBUG 레벨 로그
+2023-05-17T11:20:45.933+09:00  INFO 9500 --- [restartedMain] com.rubypaper.service.LoggingService     : INFO 레벨 로그
+2023-05-17T11:20:45.933+09:00  WARN 9500 --- [restartedMain] com.rubypaper.service.LoggingService     : WARN 레벨 로그
+2023-05-17T11:20:45.933+09:00 ERROR 9500 --- [restartedMain] com.rubypaper.service.LoggingService     : ERROR 레벨 로그
+2023-05-17T11:20:45.933+09:00  INFO 9500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-17T11:20:49.090+09:00  INFO 9500 --- [RMI TCP Connection(23)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-05-17T11:20:49.097+09:00  INFO 9500 --- [RMI TCP Connection(23)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-17T11:20:49.316+09:00  WARN 9500 --- [RMI TCP Connection(23)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-17T11:20:49.317+09:00  INFO 9500 --- [RMI TCP Connection(23)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-05-17T11:20:49.327+09:00  INFO 9500 --- [RMI TCP Connection(23)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2023-05-17T11:20:55.473+09:00  INFO 7012 --- [restartedMain] com.rubypaper.Chapter03Application       : Starting Chapter03Application using Java 17.0.7 with PID 7012 (C:\DEV\workspace\Chapter03\target\classes started by student in C:\DEV\workspace\Chapter03)
+2023-05-17T11:20:55.474+09:00 DEBUG 7012 --- [restartedMain] com.rubypaper.Chapter03Application       : Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-17T11:20:55.475+09:00  INFO 7012 --- [restartedMain] com.rubypaper.Chapter03Application       : No active profile set, falling back to 1 default profile: "default"
+2023-05-17T11:20:55.503+09:00  INFO 7012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-17T11:20:55.503+09:00  INFO 7012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-17T11:20:56.091+09:00  INFO 7012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2023-05-17T11:20:56.097+09:00  INFO 7012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-17T11:20:56.097+09:00  INFO 7012 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17T11:20:56.136+09:00  INFO 7012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-17T11:20:56.136+09:00  INFO 7012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 633 ms
+2023-05-17T11:20:56.153+09:00  INFO 7012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-17T11:20:56.211+09:00  INFO 7012 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/test user=SA
+2023-05-17T11:20:56.212+09:00  INFO 7012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-17T11:20:56.219+09:00  INFO 7012 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/test'
+2023-05-17T11:20:56.441+09:00  INFO 7012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-17T11:20:56.466+09:00  INFO 7012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2023-05-17T11:20:56.472+09:00  INFO 7012 --- [restartedMain] com.rubypaper.Chapter03Application       : Started Chapter03Application in 1.257 seconds (process running for 1.7)
+2023-05-17T11:20:56.473+09:00 DEBUG 7012 --- [restartedMain] com.rubypaper.service.LoggingService     : DEBUG 레벨 로그
+2023-05-17T11:20:56.473+09:00  INFO 7012 --- [restartedMain] com.rubypaper.service.LoggingService     : INFO 레벨 로그
+2023-05-17T11:20:56.473+09:00  WARN 7012 --- [restartedMain] com.rubypaper.service.LoggingService     : WARN 레벨 로그
+2023-05-17T11:20:56.474+09:00 ERROR 7012 --- [restartedMain] com.rubypaper.service.LoggingService     : ERROR 레벨 로그
+2023-05-17T11:21:51.814+09:00  INFO 7012 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-17T11:21:51.822+09:00  INFO 7012 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-17T11:21:52.062+09:00  WARN 7012 --- [Thread-5] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-17T11:21:52.065+09:00  INFO 7012 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-17T11:21:52.070+09:00  INFO 7012 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-17T11:24:39.932+09:00  INFO 7012 --- [restartedMain] com.rubypaper.Chapter03Application       : Starting Chapter03Application using Java 17.0.7 with PID 7012 (C:\DEV\workspace\Chapter03\target\classes started by student in C:\DEV\workspace\Chapter03)
+2023-05-17T11:24:39.932+09:00 DEBUG 7012 --- [restartedMain] com.rubypaper.Chapter03Application       : Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-17T11:24:39.932+09:00  INFO 7012 --- [restartedMain] com.rubypaper.Chapter03Application       : No active profile set, falling back to 1 default profile: "default"
+2023-05-17T11:24:40.035+09:00  INFO 7012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2023-05-17T11:24:40.035+09:00  INFO 7012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-17T11:24:40.035+09:00  INFO 7012 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17T11:24:40.042+09:00  INFO 7012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-17T11:24:40.042+09:00  INFO 7012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 108 ms
+2023-05-17T11:24:40.049+09:00  INFO 7012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-05-17T11:24:40.056+09:00  INFO 7012 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:tcp://localhost/~/test user=SA
+2023-05-17T11:24:40.056+09:00  INFO 7012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-05-17T11:24:40.056+09:00  INFO 7012 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/test'
+2023-05-17T11:24:40.111+09:00  INFO 7012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-17T11:24:40.116+09:00  INFO 7012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2023-05-17T11:24:40.118+09:00  INFO 7012 --- [restartedMain] com.rubypaper.Chapter03Application       : Started Chapter03Application in 0.234 seconds (process running for 225.346)
+2023-05-17T11:24:40.119+09:00 DEBUG 7012 --- [restartedMain] com.rubypaper.service.LoggingService     : DEBUG 레벨 로그
+2023-05-17T11:24:40.119+09:00  INFO 7012 --- [restartedMain] com.rubypaper.service.LoggingService     : INFO 레벨 로그
+2023-05-17T11:24:40.119+09:00  WARN 7012 --- [restartedMain] com.rubypaper.service.LoggingService     : WARN 레벨 로그
+2023-05-17T11:24:40.119+09:00 ERROR 7012 --- [restartedMain] com.rubypaper.service.LoggingService     : ERROR 레벨 로그
+2023-05-17T11:24:40.119+09:00  INFO 7012 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-17T11:24:56.785+09:00  INFO 7012 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-17T11:24:56.795+09:00  INFO 7012 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-17T11:24:57.005+09:00  WARN 7012 --- [Thread-11] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-17T11:24:57.006+09:00  INFO 7012 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-05-17T11:24:57.010+09:00  INFO 7012 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-05-17T11:24:57.053+09:00  INFO 7012 --- [restartedMain] com.rubypaper.Chapter03Application       : Starting Chapter03Application using Java 17.0.7 with PID 7012 (C:\DEV\workspace\Chapter03\target\classes started by student in C:\DEV\workspace\Chapter03)
+2023-05-17T11:24:57.054+09:00 DEBUG 7012 --- [restartedMain] com.rubypaper.Chapter03Application       : Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-17T11:24:57.054+09:00  INFO 7012 --- [restartedMain] com.rubypaper.Chapter03Application       : No active profile set, falling back to 1 default profile: "default"
+2023-05-17T11:24:57.151+09:00  INFO 7012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2023-05-17T11:24:57.151+09:00  INFO 7012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-17T11:24:57.151+09:00  INFO 7012 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17T11:24:57.157+09:00  INFO 7012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-17T11:24:57.157+09:00  INFO 7012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 102 ms
+2023-05-17T11:24:57.165+09:00  INFO 7012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-05-17T11:24:57.173+09:00  INFO 7012 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn30: url=jdbc:h2:tcp://localhost/~/test user=SA
+2023-05-17T11:24:57.173+09:00  INFO 7012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-05-17T11:24:57.173+09:00  INFO 7012 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/test'
+2023-05-17T11:24:57.222+09:00  INFO 7012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-17T11:24:57.228+09:00  INFO 7012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2023-05-17T11:24:57.230+09:00  INFO 7012 --- [restartedMain] com.rubypaper.Chapter03Application       : Started Chapter03Application in 0.195 seconds (process running for 242.458)
+2023-05-17T11:24:57.230+09:00 TRACE 7012 --- [restartedMain] com.rubypaper.service.LoggingService     : TRACE 레벨 로그
+2023-05-17T11:24:57.230+09:00 DEBUG 7012 --- [restartedMain] com.rubypaper.service.LoggingService     : DEBUG 레벨 로그
+2023-05-17T11:24:57.231+09:00  INFO 7012 --- [restartedMain] com.rubypaper.service.LoggingService     : INFO 레벨 로그
+2023-05-17T11:24:57.231+09:00  WARN 7012 --- [restartedMain] com.rubypaper.service.LoggingService     : WARN 레벨 로그
+2023-05-17T11:24:57.231+09:00 ERROR 7012 --- [restartedMain] com.rubypaper.service.LoggingService     : ERROR 레벨 로그
+2023-05-17T11:24:57.231+09:00  INFO 7012 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-17T11:25:05.740+09:00  INFO 7012 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-05-17T11:25:05.747+09:00  INFO 7012 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-17T11:25:05.963+09:00  WARN 7012 --- [Thread-19] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-17T11:25:05.964+09:00  INFO 7012 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-05-17T11:25:05.968+09:00  INFO 7012 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-05-17T11:25:06.009+09:00  INFO 7012 --- [restartedMain] com.rubypaper.Chapter03Application       : Starting Chapter03Application using Java 17.0.7 with PID 7012 (C:\DEV\workspace\Chapter03\target\classes started by student in C:\DEV\workspace\Chapter03)
+2023-05-17T11:25:06.010+09:00 DEBUG 7012 --- [restartedMain] com.rubypaper.Chapter03Application       : Running with Spring Boot v3.0.6, Spring v6.0.8
+2023-05-17T11:25:06.010+09:00  INFO 7012 --- [restartedMain] com.rubypaper.Chapter03Application       : No active profile set, falling back to 1 default profile: "default"
+2023-05-17T11:25:06.109+09:00  INFO 7012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2023-05-17T11:25:06.110+09:00  INFO 7012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-17T11:25:06.110+09:00  INFO 7012 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17T11:25:06.116+09:00  INFO 7012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-17T11:25:06.116+09:00  INFO 7012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 105 ms
+2023-05-17T11:25:06.121+09:00  INFO 7012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-05-17T11:25:06.129+09:00  INFO 7012 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection conn40: url=jdbc:h2:tcp://localhost/~/test user=SA
+2023-05-17T11:25:06.129+09:00  INFO 7012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-05-17T11:25:06.129+09:00  INFO 7012 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/test'
+2023-05-17T11:25:06.177+09:00  INFO 7012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-17T11:25:06.182+09:00  INFO 7012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2023-05-17T11:25:06.184+09:00  INFO 7012 --- [restartedMain] com.rubypaper.Chapter03Application       : Started Chapter03Application in 0.192 seconds (process running for 251.413)
+2023-05-17T11:25:06.185+09:00 DEBUG 7012 --- [restartedMain] com.rubypaper.service.LoggingService     : DEBUG 레벨 로그
+2023-05-17T11:25:06.185+09:00  INFO 7012 --- [restartedMain] com.rubypaper.service.LoggingService     : INFO 레벨 로그
+2023-05-17T11:25:06.185+09:00  WARN 7012 --- [restartedMain] com.rubypaper.service.LoggingService     : WARN 레벨 로그
+2023-05-17T11:25:06.185+09:00 ERROR 7012 --- [restartedMain] com.rubypaper.service.LoggingService     : ERROR 레벨 로그
+2023-05-17T11:25:06.185+09:00  INFO 7012 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-17T11:25:19.777+09:00  INFO 7012 --- [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-05-17T11:25:19.784+09:00  INFO 7012 --- [RMI TCP Connection(18)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-17T11:25:20.001+09:00  WARN 7012 --- [RMI TCP Connection(18)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-05-17T11:25:20.003+09:00  INFO 7012 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-05-17T11:25:20.013+09:00  INFO 7012 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
